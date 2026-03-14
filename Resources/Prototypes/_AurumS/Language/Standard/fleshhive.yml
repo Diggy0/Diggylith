@@ -1,0 +1,60 @@
+- type: language
+  id: Fleshhive
+  isVisibleLanguage: true
+  speech:
+    color: "#992525aa"
+  obfuscation:
+    !type:SyllableObfuscation
+    minSyllables: 1
+    maxSyllables: 1
+    replacement:
+    - Let our hive pullulate. Let the true flesh show itself.
+    - March. March. Consume.
+    - March. Consume. March.
+    - Erase. Regenerate. March.
+    - Erase. March. Regenerate.
+    - Empty. Strange. Umbrous.
+    - Loathing. Neglect. Truth.
+    - Neglect. Loathing. Truth.
+    - Intrude. Infest.
+    - Infest. Intrude.
+    - Chaotic. Oblivious. Consume.
+    - Consumption. Consume. Infest.
+    - Hear it. The march.
+    - Feast.
+    - Indulgence.
+    - Feast. Indulgence.
+    - Feast. Consume. Infest.
+    - Replace. Infest.
+    - Hear it. Our jaws, gnawing.
+    - Hear it. Our claws, tearing.
+    - Hear it. Our heart, beating.
+    - The beating of the heart. Listen.
+    - Hear it. The hive, is nearing completion.
+    - Empty. Strange. Corner?
+    - Empty. Strange. Umbrous, repellent.
+    - Erase. Regenerate. Consume all.
+    - March.
+    - Consume all. Leave no vessel standing incomplete.
+    - March, towards the hive.
+    - For our hive, for it's gaze is blessing us.
+    - PLEASE, HELP!
+    - Hello?
+    - Hello? Hi?
+    - Stay...Away...
+    - S-stay away...
+    - Help...M-me...
+    - Hello?
+    - Stay...Away...From...Me.
+    - We made our nests in the failed flesh.
+    - The hive's march, unchanging and eternal.
+    - The collective clamor for mercy shall commence.
+    - It will all be useless.
+    - Hello? Anyone there?
+    - Hello? Anyone?
+    - Help! Someone's wounded!
+    - Hello? Hi? Someone?
+    - Experiment...304? Where is...E-everyone...?
+    - It repeats. The voices of those it has killed.
+    - My last words will be engraved in this thing? Haaah...
+    - We did nothing to deserve this.

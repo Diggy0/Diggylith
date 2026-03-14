@@ -67,8 +67,8 @@
         Blunt: 12
         Slash: 20
         Structural: 50
-  - type: ReplacementAccent
-    accent: genericAggressive
+  # - type: ReplacementAccent - Aurum Sector - Chimera "Rework"
+  #  accent: genericAggressive
   - type: SolutionContainerManager
     solutions:
       melee:
@@ -247,6 +247,22 @@
   - type: PlayerAccuracyModifier
     spreadMultiplier: 12
     maxSpreadAngle: 180
+  # Aurum Changes - Start
+  - type: LanguageKnowledge
+    speaks:
+    - Fleshhive
+    understands: # A bioweapon's knowledge is plenty, even if it's only goal is to expand and consume.
+    - TauCetiBasic
+    - Fleshhive
+    - Draconic
+    - Azaziba
+    - Freespeak
+    - SiikMaas
+    - Elyran
+    - Canilunzt
+    - Mouse
+    - ValyrianStandard
+    # Aurum Changes - End
   - type: BonusMeleeDamage
     damageModifierSet:
       coefficients:
