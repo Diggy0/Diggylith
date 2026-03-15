@@ -1,0 +1,9 @@
+Name: Aurum
+Order: -2
+Entries:
+- author: Diggy
+  changes:
+    - type: Tweak
+      message: The voices of those that have been lost to the hive, do you hear them?
+  id: 1
+  time: '2025-08-25T22:06:13.0000000+00:00'
