@@ -9,7 +9,7 @@
     - !type:RoleTimeRequirement
       role: JobSecurityGuard
       time: 7200 # 2 hrs as security guard - mono
-  whitelisted: true
+  whitelisted: false # Aurum - Whitelisted server, we shouldnt have many issues.
   startingGear: SrGear
   alwaysUseSpawner: true
   assignedCompany: Colonial

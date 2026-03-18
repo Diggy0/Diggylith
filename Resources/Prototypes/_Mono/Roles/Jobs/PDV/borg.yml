@@ -6,7 +6,7 @@
   setPreference: true
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 43200
+      time: 0 # Aurum - Whitelisted server, so, we shouldn't have issues tbh
   assignedCompany: PDV
   canBeAntag: false
   icon: JobIconBorg
