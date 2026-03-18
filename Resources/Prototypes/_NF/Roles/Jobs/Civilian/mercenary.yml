@@ -5,7 +5,7 @@
   playTimeTracker: JobMercenary
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 54000 # mono - change to 15 hr
+      time: 0 # Aurum - Whitelisted server shouldn't really have this.
   canBeAntag: true
   icon: "JobIconMercenary"
   supervisors: job-supervisors-hire
