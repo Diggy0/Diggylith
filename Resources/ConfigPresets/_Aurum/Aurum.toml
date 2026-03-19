@@ -23,9 +23,9 @@ server_ban_erase_player = true
 see_own_notes = true
 show_pii_onban = true
 admins_count_in_playercount = true
-chat_discord_channel_id = 1379587459838640260
-ahelp_discord_channel_id = 1379587501185962084
-dead_chat_discord_channel_id = 1387956269351960726
+chat_discord_channel_id = 1484273228217188585
+ahelp_discord_channel_id = 1484259903634935878
+dead_chat_discord_channel_id = 1484273127126077532
 
 [ahelp]
 admin_prefix = true
@@ -36,7 +36,7 @@ easy_mode = false
 
 [ooc]
 show_ooc_patron_color = false
-discord_channel_id = 1331042209172164639
+discord_channel_id = 1484273168532111451
 
 [shuttle]
 auto_call_time = 360
