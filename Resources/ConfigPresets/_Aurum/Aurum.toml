@@ -24,7 +24,7 @@ see_own_notes = true
 show_pii_onban = true
 admins_count_in_playercount = true
 chat_discord_channel_id = 1484273228217188585
-ahelp_discord_channel_id = 1484259903634935878
+ahelp_discord_channel_id = 1484285606396825680
 dead_chat_discord_channel_id = 1484273127126077532
 
 [ahelp]
