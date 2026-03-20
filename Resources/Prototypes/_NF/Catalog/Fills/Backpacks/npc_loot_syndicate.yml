@@ -93,6 +93,14 @@
         prob: 0.5
       - id: SpawnDungeonLootToolsAdvancedEngineering
         prob: 0.4
+      # Aurum - Loot related to what the enemies are - Start
+      - id: Telecrystal5
+        prob: 0.8
+      - id: ClothingBeltSheathFilled
+        prob: 0.3
+      - id: EnergyCutlass
+        prob: 0.1
+      # Aurum - Loot related to what the enemies are - End
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -123,6 +131,14 @@
         prob: 0.5
       - id: SpawnDungeonLootToolsAdvancedEngineering
         prob: 0.4
+      # Aurum - Loot related to what the enemies are - Start
+      - id: Telecrystal5
+        prob: 0.8
+      - id: ClothingBeltSheathFilled
+        prob: 0.3
+      - id: EnergyCutlass
+        prob: 0.1
+      # Aurum - Loot related to what the enemies are - End
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -151,6 +167,14 @@
         prob: 0.5
       - id: SpawnDungeonLootToolsAdvancedEngineering
         prob: 0.4
+      # Aurum - Loot related to what the enemies are - Start
+      - id: Telecrystal5
+        prob: 0.8
+      - id: ClothingBeltSheathFilled
+        prob: 0.3
+      - id: EnergyCutlass
+        prob: 0.1
+      # Aurum - Loot related to what the enemies are - End
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -178,6 +202,14 @@
         prob: 0.5
       - id: SpawnDungeonLootToolsAdvancedEngineering
         prob: 0.4
+      # Aurum - Loot related to what the enemies are - Start
+      - id: Telecrystal5
+        prob: 0.8
+      - id: ClothingBeltSheathFilled
+        prob: 0.3
+      - id: EnergyCutlass
+        prob: 0.1
+      # Aurum - Loot related to what the enemies are - End
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -209,6 +241,24 @@
         prob: 0.5
       - id: SpawnDungeonLootToolsAdvancedEngineering
         prob: 0.4
+      # Aurum - Loot related to what the enemies are - Start
+      - id: RubberStampSyndicate
+        prob: 0.5
+      - id: SyndicateWhistle
+        prob: 0.6
+      - id: ClothingHeadsetAltSyndicate
+        prob: 0.5
+      - id: SyndiPDA
+        prob: 0.3
+      - id: WeaponAdvancedLaser
+        prob: 0.3
+      - id: SyndicatePersonalAI
+        prob: 0.3
+      - id: CigPackSyndicate
+        prob: 0.2
+      - id: ReagentContainerSyndicateTeaPouch
+        prob: 0.1
+      # Aurum - Loot related to what the enemies are - End
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -238,6 +288,24 @@
         prob: 0.5
       - id: SpawnDungeonLootToolsAdvancedEngineering
         prob: 0.4
+      # Aurum - Loot related to what the enemies are - Start
+      - id: RubberStampSyndicate
+        prob: 0.3
+      - id: SyndicateWhistle
+        prob: 0.2
+      - id: ClothingHeadsetAltSyndicate
+        prob: 0.1
+      - id: SyndiPDA
+        prob: 0.1
+      - id: WeaponAdvancedLaser
+        prob: 0.1
+      - id: SyndicatePersonalAI
+        prob: 0.1
+      - id: CigPackSyndicate
+        prob: 0.1
+      - id: ReagentContainerSyndicateTeaPouch
+        prob: 0.1
+      # Aurum - Loot related to what the enemies are - End
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -266,6 +334,24 @@
         prob: 0.5
       - id: SpawnDungeonLootToolsAdvancedEngineering
         prob: 0.4
+      # Aurum - Loot related to what the enemies are - Start
+      - id: RubberStampSyndicate
+        prob: 0.3
+      - id: SyndicateWhistle
+        prob: 0.2
+      - id: ClothingHeadsetAltSyndicate
+        prob: 0.1
+      - id: SyndiPDA
+        prob: 0.1
+      - id: WeaponAdvancedLaser
+        prob: 0.1
+      - id: SyndicatePersonalAI
+        prob: 0.1
+      - id: CigPackSyndicate
+        prob: 0.1
+      - id: ReagentContainerSyndicateTeaPouch
+        prob: 0.1
+      # Aurum - Loot related to what the enemies are - End
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -294,6 +380,24 @@
         prob: 0.5
       - id: SpawnDungeonLootToolsAdvancedEngineering
         prob: 0.4
+      # Aurum - Loot related to what the enemies are - Start
+      - id: RubberStampSyndicate
+        prob: 0.3
+      - id: SyndicateWhistle
+        prob: 0.2
+      - id: ClothingHeadsetAltSyndicate
+        prob: 0.1
+      - id: SyndiPDA
+        prob: 0.1
+      - id: WeaponAdvancedLaser
+        prob: 0.1
+      - id: SyndicatePersonalAI
+        prob: 0.1
+      - id: CigPackSyndicate
+        prob: 0.1
+      - id: ReagentContainerSyndicateTeaPouch
+        prob: 0.1
+      # Aurum - Loot related to what the enemies are - End
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -324,6 +428,22 @@
         prob: 0.7
       - id: SpawnDungeonLootVaultGuns
         prob: 0.4
+      # Aurum - Loot related to what the enemies are - Start
+      - id: Telecrystal5
+        prob: 0.8
+      - id: Telecrystal25
+        prob: 0.1
+      - id: UplinkImplanter
+        prob: 0.1
+      - id: EnergyCutlass
+        prob: 0.1
+      - id: EnergySword
+        prob: 0.1
+      - id: EnergyShield
+        prob: 0.1
+      - id: WeaponVT7
+        prob: 0.01
+      # Aurum - Loot related to what the enemies are - End
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -353,6 +473,22 @@
         prob: 0.7
       - id: SpawnDungeonLootVaultGuns
         prob: 0.4
+      # Aurum - Loot related to what the enemies are - Start
+      - id: Telecrystal5
+        prob: 0.8
+      - id: Telecrystal25
+        prob: 0.1
+      - id: UplinkImplanter
+        prob: 0.1
+      - id: EnergyCutlass
+        prob: 0.1
+      - id: EnergySword
+        prob: 0.1
+      - id: EnergyShield
+        prob: 0.1
+      - id: WeaponVT7
+        prob: 0.01
+      # Aurum - Loot related to what the enemies are - End
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -381,6 +517,22 @@
         prob: 0.7
       - id: SpawnDungeonLootVaultGuns
         prob: 0.4
+      # Aurum - Loot related to what the enemies are - Start
+      - id: Telecrystal5
+        prob: 0.8
+      - id: Telecrystal25
+        prob: 0.1
+      - id: UplinkImplanter
+        prob: 0.1
+      - id: EnergyCutlass
+        prob: 0.1
+      - id: EnergySword
+        prob: 0.1
+      - id: EnergyShield
+        prob: 0.1
+      - id: WeaponVT7
+        prob: 0.01
+      # Aurum - Loot related to what the enemies are - End
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -406,6 +558,22 @@
         prob: 0.7
       - id: SpawnDungeonLootVaultGuns
         prob: 0.4
+      # Aurum - Loot related to what the enemies are - Start
+      - id: Telecrystal5
+        prob: 0.8
+      - id: Telecrystal25
+        prob: 0.1
+      - id: UplinkImplanter
+        prob: 0.1
+      - id: EnergyCutlass
+        prob: 0.1
+      - id: EnergySword
+        prob: 0.1
+      - id: EnergyShield
+        prob: 0.1
+      - id: WeaponVT7
+        prob: 0.01
+      # Aurum - Loot related to what the enemies are - End
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -440,6 +608,26 @@
         prob: 0.4
       - id: WeaponRifleMR8C # mono
         prob: 0.05
+      # Aurum - Loot related to what the enemies are - Start
+      - id: RubberStampSyndicate
+        prob: 0.2
+      - id: SyndicateWhistle
+        prob: 0.1
+      - id: ClothingHeadsetAltSyndicate
+        prob: 0.1
+      - id: SyndiPDA
+        prob: 0.1
+      - id: WeaponAdvancedLaser
+        prob: 0.1
+      - id: SyndicatePersonalAI
+        prob: 0.1
+      - id: CigPackSyndicate
+        prob: 0.2
+      - id: ReagentContainerSyndicateTeaPouch
+        prob: 0.1
+      - id: ClothingOuterHardsuitSyndie
+        prob: 0.01 # Me when I win big
+      # Aurum - Loot related to what the enemies are - End
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -472,6 +660,26 @@
         prob: 0.4
       - id: WeaponRifleMR8C # mono
         prob: 0.01
+      # Aurum - Loot related to what the enemies are - Start
+      - id: RubberStampSyndicate
+        prob: 0.2
+      - id: SyndicateWhistle
+        prob: 0.1
+      - id: ClothingHeadsetAltSyndicate
+        prob: 0.1
+      - id: SyndiPDA
+        prob: 0.1
+      - id: WeaponAdvancedLaser
+        prob: 0.1
+      - id: SyndicatePersonalAI
+        prob: 0.1
+      - id: CigPackSyndicate
+        prob: 0.2
+      - id: ReagentContainerSyndicateTeaPouch
+        prob: 0.1
+      - id: ClothingOuterHardsuitSyndie
+        prob: 0.01 # Me when I win big
+      # Aurum - Loot related to what the enemies are - End
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -504,6 +712,26 @@
         prob: 0.5
       - id: SpawnDungeonLootToolsAdvancedEngineering
         prob: 0.4
+      # Aurum - Loot related to what the enemies are - Start
+      - id: RubberStampSyndicate
+        prob: 0.2
+      - id: SyndicateWhistle
+        prob: 0.1
+      - id: ClothingHeadsetAltSyndicate
+        prob: 0.1
+      - id: SyndiPDA
+        prob: 0.1
+      - id: WeaponAdvancedLaser
+        prob: 0.1
+      - id: SyndicatePersonalAI
+        prob: 0.1
+      - id: CigPackSyndicate
+        prob: 0.2
+      - id: ReagentContainerSyndicateTeaPouch
+        prob: 0.1
+      - id: ClothingOuterHardsuitSyndie
+        prob: 0.01 # Me when I win big
+      # Aurum - Loot related to what the enemies are - End
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -532,6 +760,26 @@
         prob: 0.5
       - id: SpawnDungeonLootToolsAdvancedEngineering
         prob: 0.4
+      # Aurum - Loot related to what the enemies are - Start
+      - id: RubberStampSyndicate
+        prob: 0.2
+      - id: SyndicateWhistle
+        prob: 0.1
+      - id: ClothingHeadsetAltSyndicate
+        prob: 0.1
+      - id: SyndiPDA
+        prob: 0.1
+      - id: WeaponAdvancedLaser
+        prob: 0.1
+      - id: SyndicatePersonalAI
+        prob: 0.1
+      - id: CigPackSyndicate
+        prob: 0.2
+      - id: ReagentContainerSyndicateTeaPouch
+        prob: 0.1
+      - id: ClothingOuterHardsuitSyndie
+        prob: 0.01 # Me when I win big
+      # Aurum - Loot related to what the enemies are - End
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -660,6 +908,26 @@
         prob: 0.7
       - id: SpawnDungeonLootPartsEngi
         prob: 0.7
+      # Aurum - Loot related to what the enemies are - Start
+      - id: CombatMedipen
+        prob: 0.1
+      - id: StimkitFilled
+        prob: 0.1
+      - id: HypopenBox
+        prob: 0.1
+      - id: NocturineChemistryBottle
+        prob: 0.1
+      - id: MedkitCombatFilled
+        prob: 0.1
+      - id: SyringeCaseAltFilled
+        prob: 0.1
+      - id: DefibrillatorSyndicate
+        prob: 0.1
+      - id: ChemicalSynthesisKit
+        prob: 0.1
+      - id: ClothingBackpackDuffelSyndicateMedicalBundleFilled
+        prob: 0.01 # Me when I win big
+      # Aurum - Loot related to what the enemies are - End
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -682,6 +950,26 @@
         prob: 0.7
       - id: SpawnDungeonLootPartsEngi
         prob: 0.7
+      # Aurum - Loot related to what the enemies are - Start
+      - id: CombatMedipen
+        prob: 0.1
+      - id: StimkitFilled
+        prob: 0.1
+      - id: HypopenBox
+        prob: 0.1
+      - id: NocturineChemistryBottle
+        prob: 0.1
+      - id: MedkitCombatFilled
+        prob: 0.1
+      - id: SyringeCaseAltFilled
+        prob: 0.1
+      - id: DefibrillatorSyndicate
+        prob: 0.1
+      - id: ChemicalSynthesisKit
+        prob: 0.1
+      - id: ClothingBackpackDuffelSyndicateMedicalBundleFilled
+        prob: 0.01 # Me when I win big
+      # Aurum - Loot related to what the enemies are - End
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -703,6 +991,26 @@
         prob: 0.7
       - id: SpawnDungeonLootPartsEngi
         prob: 0.7
+      # Aurum - Loot related to what the enemies are - Start
+      - id: CombatMedipen
+        prob: 0.1
+      - id: StimkitFilled
+        prob: 0.1
+      - id: HypopenBox
+        prob: 0.1
+      - id: NocturineChemistryBottle
+        prob: 0.1
+      - id: MedkitCombatFilled
+        prob: 0.1
+      - id: SyringeCaseAltFilled
+        prob: 0.1
+      - id: DefibrillatorSyndicate
+        prob: 0.1
+      - id: ChemicalSynthesisKit
+        prob: 0.1
+      - id: ClothingBackpackDuffelSyndicateMedicalBundleFilled
+        prob: 0.01 # Me when I win big
+      # Aurum - Loot related to what the enemies are - End
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -723,6 +1031,26 @@
         prob: 0.7
       - id: SpawnDungeonLootPartsEngi
         prob: 0.7
+      # Aurum - Loot related to what the enemies are - Start
+      - id: CombatMedipen
+        prob: 0.1
+      - id: StimkitFilled
+        prob: 0.1
+      - id: HypopenBox
+        prob: 0.1
+      - id: NocturineChemistryBottle
+        prob: 0.1
+      - id: MedkitCombatFilled
+        prob: 0.1
+      - id: SyringeCaseAltFilled
+        prob: 0.1
+      - id: DefibrillatorSyndicate
+        prob: 0.1
+      - id: ChemicalSynthesisKit
+        prob: 0.1
+      - id: ClothingBackpackDuffelSyndicateMedicalBundleFilled
+        prob: 0.01 # Me when I win big
+      # Aurum - Loot related to what the enemies are - End
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -866,6 +1194,26 @@
         prob: 0.7
       - id: SpawnDungeonLootToolsAdvancedEngineering
         prob: 0.3
+      # Aurum - Loot related to what the enemies are - Start
+      - id: CombatMedipen
+        prob: 0.1
+      - id: StimkitFilled
+        prob: 0.1
+      - id: HypopenBox
+        prob: 0.1
+      - id: NocturineChemistryBottle
+        prob: 0.1
+      - id: MedkitCombatFilled
+        prob: 0.1
+      - id: SyringeCaseAltFilled
+        prob: 0.1
+      - id: DefibrillatorSyndicate
+        prob: 0.1
+      - id: ChemicalSynthesisKit
+        prob: 0.1
+      - id: ClothingBackpackDuffelSyndicateMedicalBundleFilled
+        prob: 0.01 # Me when I win big
+      # Aurum - Loot related to what the enemies are - End
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -893,6 +1241,26 @@
         prob: 0.7
       - id: SpawnDungeonLootToolsAdvancedEngineering
         prob: 0.3
+      # Aurum - Loot related to what the enemies are - Start
+      - id: CombatMedipen
+        prob: 0.1
+      - id: StimkitFilled
+        prob: 0.1
+      - id: HypopenBox
+        prob: 0.1
+      - id: NocturineChemistryBottle
+        prob: 0.1
+      - id: MedkitCombatFilled
+        prob: 0.1
+      - id: SyringeCaseAltFilled
+        prob: 0.1
+      - id: DefibrillatorSyndicate
+        prob: 0.1
+      - id: ChemicalSynthesisKit
+        prob: 0.1
+      - id: ClothingBackpackDuffelSyndicateMedicalBundleFilled
+        prob: 0.01 # Me when I win big
+      # Aurum - Loot related to what the enemies are - End
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -919,6 +1287,26 @@
         prob: 0.7
       - id: SpawnDungeonLootToolsAdvancedEngineering
         prob: 0.3
+      # Aurum - Loot related to what the enemies are - Start
+      - id: CombatMedipen
+        prob: 0.1
+      - id: StimkitFilled
+        prob: 0.1
+      - id: HypopenBox
+        prob: 0.1
+      - id: NocturineChemistryBottle
+        prob: 0.1
+      - id: MedkitCombatFilled
+        prob: 0.1
+      - id: SyringeCaseAltFilled
+        prob: 0.1
+      - id: DefibrillatorSyndicate
+        prob: 0.1
+      - id: ChemicalSynthesisKit
+        prob: 0.1
+      - id: ClothingBackpackDuffelSyndicateMedicalBundleFilled
+        prob: 0.01 # Me when I win big
+      # Aurum - Loot related to what the enemies are - End
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -945,6 +1333,26 @@
         prob: 0.7
       - id: SpawnDungeonLootToolsAdvancedEngineering
         prob: 0.3
+      # Aurum - Loot related to what the enemies are - Start
+      - id: CombatMedipen
+        prob: 0.1
+      - id: StimkitFilled
+        prob: 0.1
+      - id: HypopenBox
+        prob: 0.1
+      - id: NocturineChemistryBottle
+        prob: 0.1
+      - id: MedkitCombatFilled
+        prob: 0.1
+      - id: SyringeCaseAltFilled
+        prob: 0.1
+      - id: DefibrillatorSyndicate
+        prob: 0.1
+      - id: ChemicalSynthesisKit
+        prob: 0.1
+      - id: ClothingBackpackDuffelSyndicateMedicalBundleFilled
+        prob: 0.01 # Me when I win big
+      # Aurum - Loot related to what the enemies are - End
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -973,6 +1381,12 @@
         prob: 0.7
       - id: SpawnDungeonLootToolsAdvancedEngineering
         prob: 0.3
+      # Aurum - Loot related to what the enemies are - Start
+      - id: ClothingBackpackDuffelSyndicateC4tBundle
+        prob: 0.01 # Me when I win big
+      - id: ClothingBeltMilitaryWebbingGrenadeFilled
+        prob: 0.01 # Me when I win big
+      # Aurum - Loot related to what the enemies are - End
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -1000,6 +1414,12 @@
         prob: 0.7
       - id: SpawnDungeonLootToolsAdvancedEngineering
         prob: 0.3
+      # Aurum - Loot related to what the enemies are - Start
+      - id: ClothingBackpackDuffelSyndicateC4tBundle
+        prob: 0.01 # Me when I win big
+      - id: ClothingBeltMilitaryWebbingGrenadeFilled
+        prob: 0.01 # Me when I win big
+      # Aurum - Loot related to what the enemies are - End
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -1027,6 +1447,12 @@
         prob: 0.7
       - id: SpawnDungeonLootToolsAdvancedEngineering
         prob: 0.3
+      # Aurum - Loot related to what the enemies are - Start
+      - id: ClothingBackpackDuffelSyndicateC4tBundle
+        prob: 0.01 # Me when I win big
+      - id: ClothingBeltMilitaryWebbingGrenadeFilled
+        prob: 0.01 # Me when I win big
+      # Aurum - Loot related to what the enemies are - End
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -1054,5 +1480,11 @@
         prob: 0.7
       - id: SpawnDungeonLootToolsAdvancedEngineering
         prob: 0.3
+      # Aurum - Loot related to what the enemies are - Start
+      - id: ClothingBackpackDuffelSyndicateC4tBundle
+        prob: 0.01 # Me when I win big
+      - id: ClothingBeltMilitaryWebbingGrenadeFilled
+        prob: 0.01 # Me when I win big
+      # Aurum - Loot related to what the enemies are - End
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
