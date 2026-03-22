@@ -67,7 +67,7 @@
         0: Alive
         100: Dead # The Answer to the Ultimate Question of Life, the Universe, and Everything # Aurum Change: 42 to 100
     - type: Damageable
-      damageContainer: SiliconRadiation
+      damageContainer: Silicon # Aurum - SiliconRadiation to Silicon
     - type: StatusEffects
       allowed:
       - Stun

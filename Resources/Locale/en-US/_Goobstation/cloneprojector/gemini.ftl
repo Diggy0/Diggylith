@@ -21,7 +21,7 @@ gemini-projector-reboot-verb = Recalibrate Personality
 gemini-projector-reboot-verb-text = Recalibrate the personality of the current clone, giving it a brand new mind. This cannot be undone.
 
 ghost-role-information-gemini-clone-name = Gemini Hologram
-ghost-role-information-gemini-clone-description = Assist the Research Director in any and all of their tasks. Maybe burn a city or two if they want.
+ghost-role-information-gemini-clone-description = Assist your owner in any and all of their tasks. Maybe burn a city or two if they want.
 
 ghost-role-information-monozygotic-clone-name = Monozygotic Hologram
 ghost-role-information-monozygotic-clone-description = Assist Central Command in any and all of their tasks.
