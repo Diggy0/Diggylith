@@ -28,13 +28,14 @@
     - type: GhostTakeoverAvailable
     - type: AntagImmune
     - type: MovementIgnoreGravity
-    - type: SpecialPressureImmunity
+    # - type: SpecialPressureImmunity # Aurum - Doesn't work
+    - type: PressureImmunity # Aurum - So, we do this.
     - type: RequireProjectileTarget
     - type: NoSlip
     - type: ZombieImmune
-    - type: CrematoriumImmune
+    # - type: CrematoriumImmune # Aurum - Doesn't work
     - type: BreathingImmunity
-    - type: TemperatureImmunity
+    # - type: TemperatureImmunity # Aurum - Doesn't work
     - type: TypingIndicator
       proto: robot
     - type: Speech
@@ -120,12 +121,12 @@
     - type: InjectableSolution
     - type: SolutionContainerManager
     - type: Dna
-    - type: Absorbable
+    # - type: Absorbable # Aurum - Lings Ain't Real
     - type: Fingerprint
     - type: Perishable
     - type: Hunger
     - type: Thirst
-    - type: FootprintOwner
+    # - type: FootprintOwner # Aurum - Print's Ain't Real
     - type: ItemSlots # No infinite batteries.
 
 - type: entity
@@ -158,7 +159,7 @@
       - ClothingBeltGeminiHoloProjector
 
 - type: entity
-  parent: [ ClothingBeltBaseCloneProjector, BaseCentcommContraband ]
+  parent: ClothingBeltBaseCloneProjector
   id: ClothingBeltMonozygoticHoloProjector
   name: ax-48 "monozygotic" holo-projector rig
   description: An custom made, experimental variant of the ax-32, retrofitted for use by Central Command.
