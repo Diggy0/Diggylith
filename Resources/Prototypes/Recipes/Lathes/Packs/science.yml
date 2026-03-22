@@ -57,6 +57,7 @@
   - WeaponProtoKineticAccelerator
   # - WeaponTetherGun # Frontier
   - WeaponGauntletGorilla
+  - ClothingBeltGeminiHoloProjector # Aurum Edit
 
 - type: latheRecipePack
   id: FauxTiles

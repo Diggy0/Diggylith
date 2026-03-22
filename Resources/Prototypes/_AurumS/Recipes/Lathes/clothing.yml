@@ -1,0 +1,12 @@
+﻿- type: latheRecipe
+  id: ClothingBeltGeminiHoloProjector
+  result: ClothingBeltGeminiHoloProjector
+  categories:
+    - Tools
+  completetime: 30
+  materials:
+   Steel: 1000
+   Plasma: 500
+   Glass: 250
+   Gold: 500
+   Diamond: 100

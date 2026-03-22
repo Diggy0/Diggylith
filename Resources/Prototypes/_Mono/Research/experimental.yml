@@ -69,6 +69,7 @@
   - WeaponPistolCHIMP
   - AnomalySynchronizerCircuitboard
   - AnomalyVesselExperimentalCircuitboard
+  - ClothingBeltGeminiHoloProjector #Aurum Edit
   technologyPrerequisites:
   - BasicResearch
   position: -1, -2
