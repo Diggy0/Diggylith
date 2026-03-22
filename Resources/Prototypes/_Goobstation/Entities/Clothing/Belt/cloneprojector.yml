@@ -64,7 +64,7 @@
     - type: MobThresholds
       thresholds:
         0: Alive
-        42: Dead # The Answer to the Ultimate Question of Life, the Universe, and Everything
+        100: Dead # The Answer to the Ultimate Question of Life, the Universe, and Everything # Aurum Change: 42 to 100
     - type: Damageable
       damageContainer: SiliconRadiation
     - type: StatusEffects
@@ -93,7 +93,7 @@
     - type: MovedByPressure
     - type: ThermalRegulator
     - type: SSDIndicator
-    - type: Condemned # Disgusting silicon.
+    # - type: Condemned # Disgusting silicon. # Aurum - Devils aren't real
       soulOwnedNotDevil: true
     - type: Flammable
       damage:
