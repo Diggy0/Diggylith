@@ -15,7 +15,7 @@ public sealed class ModifyChangedTemperatureEvent : EntityEventArgs, IInventoryR
 }
 
 public sealed class OnTemperatureChangeEvent : EntityEventArgs
-{`
+{
     public readonly float CurrentTemperature;
     public readonly float LastTemperature;
     public readonly float TemperatureDelta;
