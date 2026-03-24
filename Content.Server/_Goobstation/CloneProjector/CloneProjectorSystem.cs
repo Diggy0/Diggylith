@@ -7,8 +7,8 @@
 
 using System.Linq;
 using Content.Shared.FixedPoint;
-using Content.Goobstation.Shared.CloneProjector;
-using Content.Goobstation.Shared.CloneProjector.Clone;
+using Content.Shared._Goobstation.CloneProjector;
+using Content.Shared._Goobstation.CloneProjector.Clone;
 using Content.Server.Emp;
 using Content.Server.Ghost.Roles.Components;
 using Content.Server.Carrying;
@@ -43,7 +43,7 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
 using Robust.Shared.Utility;
 
-namespace Content.Goobstation.Server.CloneProjector;
+namespace Content.Server._Goobstation.CloneProjector;
 
 public sealed partial class CloneProjectorSystem : SharedCloneProjectorSystem
 {

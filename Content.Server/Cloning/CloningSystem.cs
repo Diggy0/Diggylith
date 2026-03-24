@@ -44,7 +44,7 @@ using Robust.Shared.Serialization.Manager;
 using Content.Shared._NF.Cloning; // Frontier
 using Content.Shared._NF.Bank.Components; // Frontier
 using Content.Server._NF.Traits.Assorted; // Frontier
-using Content.Goobstation.Shared.CloneProjector.Clone; // Aurum - Goob Gemini
+using Content.Shared._Goobstation.CloneProjector.Clone; // Aurum - Goob Gemini
 
 namespace Content.Server.Cloning
 {

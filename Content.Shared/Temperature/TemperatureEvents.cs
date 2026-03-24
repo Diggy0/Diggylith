@@ -15,7 +15,7 @@ public sealed class ModifyChangedTemperatureEvent : EntityEventArgs, IInventoryR
 }
 
 public sealed class OnTemperatureChangeEvent : EntityEventArgs
-{
+{`
     public readonly float CurrentTemperature;
     public readonly float LastTemperature;
     public readonly float TemperatureDelta;
@@ -28,3 +28,17 @@ public sealed class OnTemperatureChangeEvent : EntityEventArgs
     }
 }
 
+// Goobstation
+public sealed class TemperatureChangeAttemptEvent : CancellableEntityEventArgs
+{
+    public readonly float CurrentTemperature;
+    public readonly float LastTemperature;
+    public readonly float TemperatureDelta;
+
+    public TemperatureChangeAttemptEvent(float current, float last, float delta)
+    {
+        CurrentTemperature = current;
+        LastTemperature = last;
+        TemperatureDelta = delta;
+    }
+}

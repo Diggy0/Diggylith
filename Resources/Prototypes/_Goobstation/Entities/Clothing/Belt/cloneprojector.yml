@@ -35,7 +35,7 @@
     - type: ZombieImmune
     # - type: CrematoriumImmune # Aurum - Doesn't work
     - type: BreathingImmunity
-    # - type: TemperatureImmunity # Aurum - Doesn't work
+    - type: TemperatureImmunity
     - type: TypingIndicator
       proto: robot
     - type: Speech

@@ -4,14 +4,14 @@
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later
 
-using Content.Goobstation.Shared.CloneProjector.Clone;
+using Content.Shared._Goobstation.CloneProjector.Clone;
 using Content.Shared.Nyanotrasen.Holograms;
 using Content.Shared.Popups;
 using Content.Shared.Weapons.Melee.Events;
 using Content.Shared.Weapons.Ranged.Events;
 using Robust.Shared.Containers;
 
-namespace Content.Goobstation.Shared.CloneProjector;
+namespace Content.Shared._Goobstation.CloneProjector;
 
 public abstract class SharedCloneProjectorSystem : EntitySystem
 {
