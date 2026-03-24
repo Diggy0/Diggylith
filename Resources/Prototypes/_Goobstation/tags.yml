@@ -7,6 +7,9 @@
 - type: Tag
   id: Cartridge762x39mmSubsonic
 
+- type: Tag # Aurum - Goob Gemini
+  id: ClothingBeltGeminiHoloProjector
+
 - type: Tag
   id: Cartridge127x99mm
 

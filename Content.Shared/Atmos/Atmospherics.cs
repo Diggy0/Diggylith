@@ -41,6 +41,11 @@ namespace Content.Shared.Atmos
         public const float T20C = 293.15f;
 
         /// <summary>
+        ///     37ºC in K --GOOB EDIT--
+        /// </summary>
+        public const float T37C = 310.1f;
+
+        /// <summary>
         ///     -38.15ºC in K.
         ///     This is used to initialize roundstart freezer rooms.
         /// </summary>
@@ -305,9 +310,9 @@ namespace Content.Shared.Atmos
         ///     Divisor for Ammonia Oxygen reaction so that it doesn't happen instantaneously.
         /// </summary>
         public const float AmmoniaOxygenReactionRate = 10f;
-		
+
 		///Funky/Goob start
-		
+
         /// <summary>
         ///     The amount of energy 1 mole of BZ forming from N2O and plasma releases.
         /// </summary>
@@ -327,14 +332,14 @@ namespace Content.Shared.Atmos
         ///     The amount of energy 1 mol of Nitrium decomposing into nitrogen and water vapor releases.
         /// </summary>
         public const float NitriumDecompositionEnergy = 30e3f;
-		
+
 		/// <summary>
         ///     The amount of energy 1 mol of Pluoxium forming releases.
         /// </summary>
         public const float PluoxiumProductionEnergy = 250;
-		
+
 		///Funky/Goob end
-		
+
         /// <summary>
         ///     Determines at what pressure the ultra-high pressure red icon is displayed.
         /// </summary>

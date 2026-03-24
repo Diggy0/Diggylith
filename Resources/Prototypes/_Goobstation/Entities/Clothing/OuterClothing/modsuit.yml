@@ -1,4 +1,4 @@
-# Mono - modsuit overhaul - see #2755 
+# Mono - modsuit overhaul - see #2755
 
 - type: entity
   parent: [ ClothingOuterBase, GeigerCounterClothing ] # Mono - add geiger
@@ -21,7 +21,7 @@
     unequipSound: /Audio/Mecha/mechmove03.ogg
     slots: [ outerClothing ]
   - type: ClothingSpeedModifier
-    walkModifier: 1 
+    walkModifier: 1
     sprintModifier: 1
   - type: SealableClothing
     sealUpPopup: sealable-clothing-seal-up-chestplate
@@ -147,7 +147,7 @@
       outerClothing-resomi:
       - state: equipped-OUTERCLOTHING-sealed-resomi
       outerClothing-vox:
-      - state: equipped-OUTERCLOTHING-sealed-vox     
+      - state: equipped-OUTERCLOTHING-sealed-vox
   - type: ExplosionResistance
     damageCoefficient: 0.4
   - type: StaminaDamageResistance
@@ -206,7 +206,7 @@
       outerClothing-resomi:
       - state: equipped-OUTERCLOTHING-sealed-resomi
       outerClothing-vox:
-      - state: equipped-OUTERCLOTHING-sealed-vox     
+      - state: equipped-OUTERCLOTHING-sealed-vox
   - type: ExplosionResistance
     damageCoefficient: 1
   - type: Armor
@@ -266,7 +266,7 @@
       outerClothing-resomi:
       - state: equipped-OUTERCLOTHING-sealed-resomi
       outerClothing-vox:
-      - state: equipped-OUTERCLOTHING-sealed-vox     
+      - state: equipped-OUTERCLOTHING-sealed-vox
   - type: ExplosionResistance
     damageCoefficient: 0.25 # Mono
   - type: Armor
@@ -326,7 +326,7 @@
       outerClothing-resomi:
       - state: equipped-OUTERCLOTHING-sealed-resomi
       outerClothing-vox:
-      - state: equipped-OUTERCLOTHING-sealed-vox     
+      - state: equipped-OUTERCLOTHING-sealed-vox
   - type: ExplosionResistance
     damageCoefficient: 0.6
   - type: Armor
@@ -384,7 +384,7 @@
       outerClothing-resomi:
       - state: equipped-OUTERCLOTHING-sealed-resomi
       outerClothing-vox:
-      - state: equipped-OUTERCLOTHING-sealed-vox     
+      - state: equipped-OUTERCLOTHING-sealed-vox
   - type: ExplosionResistance
     damageCoefficient: 0.1
   - type: Armor
@@ -444,7 +444,7 @@
       outerClothing-resomi:
       - state: equipped-OUTERCLOTHING-sealed-resomi
       outerClothing-vox:
-      - state: equipped-OUTERCLOTHING-sealed-vox     
+      - state: equipped-OUTERCLOTHING-sealed-vox
   - type: ExplosionResistance
     damageCoefficient: 0.5
   - type: Armor
@@ -467,4 +467,3 @@
     coefficient: 0.7
   - type: FireProtection
     reduction: 0.5
-

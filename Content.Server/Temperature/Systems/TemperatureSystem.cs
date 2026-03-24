@@ -14,6 +14,7 @@ using Robust.Shared.Physics.Components;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Physics.Events;
 using Content.Shared.Projectiles;
+using Content.Shared._Goobstation.Temperature; // Aurum edit
 
 namespace Content.Server.Temperature.Systems;
 
@@ -121,8 +122,28 @@ public sealed class TemperatureSystem : EntitySystem
             return;
 
         float lastTemp = temperature.CurrentTemperature;
-        float delta = temperature.CurrentTemperature - temp;
         temperature.CurrentTemperature = temp;
+
+        // Goob start
+
+        var preEv = new BeforeTemperatureChange(
+            temperature.CurrentTemperature,
+            lastTemp,
+            temperature.CurrentTemperature - lastTemp);
+        RaiseLocalEvent(uid, ref preEv);
+
+        var tempEv = new TemperatureImmunityEvent(temperature.CurrentTemperature);
+        RaiseLocalEvent(uid, tempEv);
+        temperature.CurrentTemperature = tempEv.CurrentTemperature;
+
+        float delta = temperature.CurrentTemperature - temp;
+
+        var attemptEv = new TemperatureChangeAttemptEvent(temp, lastTemp, delta);
+        RaiseLocalEvent(uid, attemptEv);
+        if (attemptEv.Cancelled)
+            return;
+        // Goob end
+
         RaiseLocalEvent(uid, new OnTemperatureChangeEvent(temperature.CurrentTemperature, lastTemp, delta),
             true);
     }
@@ -140,9 +161,30 @@ public sealed class TemperatureSystem : EntitySystem
             heatAmount = ev.TemperatureDelta;
         }
 
+
+        // Goobstation start
         float lastTemp = temperature.CurrentTemperature;
-        temperature.CurrentTemperature += heatAmount / GetHeatCapacity(uid, temperature);
-        float delta = temperature.CurrentTemperature - lastTemp;
+        float newTemp = temperature.CurrentTemperature + heatAmount / GetHeatCapacity(uid, temperature);
+
+        var preEv = new BeforeTemperatureChange(
+            newTemp,
+            lastTemp,
+            newTemp - lastTemp);
+        RaiseLocalEvent(uid, ref preEv);
+
+        var tempEv = new TemperatureImmunityEvent(newTemp);
+        RaiseLocalEvent(uid, tempEv);
+        newTemp = tempEv.CurrentTemperature;
+
+        float delta = newTemp - lastTemp;
+
+        var attemptEv = new TemperatureChangeAttemptEvent(newTemp, lastTemp, delta);
+        RaiseLocalEvent(uid, attemptEv);
+        if (attemptEv.Cancelled)
+            return;
+
+        temperature.CurrentTemperature = newTemp;
+        // Goobstation end
 
         RaiseLocalEvent(uid, new OnTemperatureChangeEvent(temperature.CurrentTemperature, lastTemp, delta), true);
     }
