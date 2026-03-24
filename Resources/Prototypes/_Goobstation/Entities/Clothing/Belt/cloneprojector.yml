@@ -95,7 +95,7 @@
     - type: ThermalRegulator
     - type: SSDIndicator
     # - type: Condemned # Disgusting silicon. # Aurum - Devils aren't real
-      soulOwnedNotDevil: true
+    #  soulOwnedNotDevil: true
     - type: Flammable
       damage:
         types:
