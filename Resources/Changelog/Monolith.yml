@@ -14775,7 +14775,7 @@ Entries:
     - type: Add
       message: >-
         The DIS Pluto MK. II has pierced it's way on the hull market. A
-        replacement of the honorable Pluto. 
+        replacement of the honorable Pluto.
     - type: Remove
       message: >-
         DIS Pluto hulls are no longer available on the hull market. We will miss
@@ -14885,7 +14885,7 @@ Entries:
     - type: Tweak
       message: >-
         Spasaka sabotage kit has gotten equipment changes to help with boarding
-        as well as receiving the RX-01 suit. 
+        as well as receiving the RX-01 suit.
   id: 1651
   time: '2025-12-13T08:10:05.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2782
@@ -15226,7 +15226,7 @@ Entries:
     - type: Tweak
       message: >-
         Bluespace crates occur more frequently. By extension there will be fewer
-        solar flares. 
+        solar flares.
     - type: Tweak
       message: >-
         Increased the number of smuggling hints sent out to ships. Happy
@@ -15789,7 +15789,7 @@ Entries:
     - type: Add
       message: >-
         A new challanger! BT-Y Hazel enters the PDV Roster as a small-strafer in
-        place of the Vega featuring a 3 barreled 220m Battery! 
+        place of the Vega featuring a 3 barreled 220m Battery!
     - type: Remove
       message: PDV Vega is now gone, o7.
   id: 1752
@@ -15815,7 +15815,7 @@ Entries:
         The Europa is now a beefy capital ship with medical and cloning
         capabilities. She is now restricted to two vessels active at a time, as
         well as costing 240k. These changes come with the benefit of a heavy
-        upgrade. Glory to Phaethon. 
+        upgrade. Glory to Phaethon.
   id: 1754
   time: '2026-01-05T16:53:42.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2929
@@ -16677,7 +16677,7 @@ Entries:
     - type: Tweak
       message: >-
         Advanced chemicals now have 0.15u metabolism rate. Pyrazine healing was
-        buffed to 2. 
+        buffed to 2.
     - type: Tweak
       message: Overseer's heavy maul sprite received changes.
   id: 1847
@@ -16904,7 +16904,7 @@ Entries:
     - type: Tweak
       message: >-
         Horizon Energy has begun sale of modernized versions of the Windreign to
-        the Colossus Sector. 
+        the Colossus Sector.
   id: 1871
   time: '2026-02-01T19:28:28.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3141
@@ -17076,7 +17076,7 @@ Entries:
       message: >-
         the local syndicate outpost has finally invested in some automated
         defenses. woe be the raider who tries to illegally park their ship right
-        in front of the outpost. 
+        in front of the outpost.
   id: 1887
   time: '2026-02-11T01:31:25.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3044
@@ -17408,7 +17408,7 @@ Entries:
     - type: Tweak
       message: >-
         Mech Fuel Cell now costs Fissile Uranium (1) and Diamond (1) among other
-        cost changes, but auto-regens to full within 4 minutes. 
+        cost changes, but auto-regens to full within 4 minutes.
     - type: Tweak
       message: >-
         Balance pass on Armored Frame (S2/S4 mech) weapons - RAC-6 spreads
@@ -18895,7 +18895,127 @@ Entries:
     - type: Tweak
       message: >-
         The DIS Femur has seen a light rework, see PR for more details. Report
-        feedback & issues to me on discord (@unicornonlsd) 
+        feedback & issues to me on discord (@unicornonlsd)
   id: 2085
   time: '2026-03-26T05:55:13.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3560
+- author: Redrover1760
+  changes:
+    - type: Remove
+      message: You can no longer sell crates on Helios/Lancelot
+  id: 2086
+  time: '2026-03-26T22:05:32.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3573
+- author: Onezero0
+  changes:
+    - type: Tweak
+      message: Tripled the time it takes for a body to start rotting (20 -> 60 minutes)
+  id: 2087
+  time: '2026-03-27T05:49:14.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3524
+- author: Redrover1760
+  changes:
+    - type: Fix
+      message: Hydrakin head displacement improved slightly
+  id: 2088
+  time: '2026-03-27T07:19:24.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3575
+- author: Redrover1760
+  changes:
+    - type: Tweak
+      message: Updates Reptilian Guidebook with recent changes.
+  id: 2089
+  time: '2026-03-27T07:20:31.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3565
+- author: Ilya246
+  changes:
+    - type: Add
+      message: Reenabled apocalypse gamemode.
+    - type: Tweak
+      message: Apocalypse now requires a 80% majority vote.
+    - type: Tweak
+      message: Some events can now trigger earlier.
+    - type: Fix
+      message: Fixed biothreat spawning chimera only 3 hours in. Now 1 hour.
+  id: 2090
+  time: '2026-03-27T17:58:07.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3570
+- author: NazrinNya
+  changes:
+    - type: Tweak
+      message: >-
+        Heavy ballistic turrets now use 51mm antimaterial instead of 65mm.
+        Firerate 5 -> 4.5 Projectile speed 100 -> 65.
+  id: 2091
+  time: '2026-03-27T19:26:23.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3461
+- author: Redrover1760
+  changes:
+    - type: Add
+      message: >-
+        Installs anti-chimera/hostile mob turrets to CC and MD to guard
+        cryosleep chambers using RIP ammo.
+    - type: Tweak
+      message: Grids with godmode no longer godmode turrets.
+    - type: Tweak
+      message: Turrets are now repairable via welder.
+    - type: Fix
+      message: Turrets no longer shoot mice.
+  id: 2092
+  time: '2026-03-27T21:57:35.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3582
+- author: Redrover1760
+  changes:
+    - type: Fix
+      message: >-
+        Emergancy software update pushed. All turrets are no longer speciest and
+        kill goblins, harpies, felinids, and dwarves on sight.
+  id: 2093
+  time: '2026-03-28T06:41:55.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3585
+- author: Redrover1760
+  changes:
+    - type: Fix
+      message: >-
+        Diagonal Walls/Windows no longer prevent destruction of kudzu/chimera
+        biomass.
+  id: 2094
+  time: '2026-03-28T16:17:49.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3588
+- author: NazrinNya
+  changes:
+    - type: Tweak
+      message: Death rattle is properly working on grids and planets now
+    - type: Tweak
+      message: >-
+        IPC received system update: Their chassis now becomes more vulnerable to
+        all damage sources instead of losing hands on discharge.
+    - type: Tweak
+      message: Kobolds and Monkeys are now capable of piloting shuttles.
+    - type: Tweak
+      message: Capacitors required for thruster construction/upgrade 4 -> 1.
+    - type: Tweak
+      message: Ore/construction box/bag dumping speed is significantly faster now.
+    - type: Tweak
+      message: Security techfab now includes Mercenary techfab dynamic recipes.
+    - type: Fix
+      message: You actually get the mech pulse rifle in the TSFMC uplink now
+    - type: Tweak
+      message: Salt is now capable of being reprocessed into iron ore.
+  id: 2095
+  time: '2026-03-28T16:21:43.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3587
+- author: Redrover1760
+  changes:
+    - type: Tweak
+      message: Thruster capacitor upgrades made more impactful.
+  id: 2096
+  time: '2026-03-28T16:42:39.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3589
+- author: Vinny-Shick
+  changes:
+    - type: Tweak
+      message: Slightly Buffed the Vanyk
+  id: 2097
+  time: '2026-03-28T16:45:49.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3574
