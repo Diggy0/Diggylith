@@ -38,6 +38,7 @@
   loadouts:
   - ChiefMedicalOfficerBeret
   - CMOMedicalHeadMirror
+  - VeteranCMOBeret # Aurum
   subgroups:
   - ContractorHead
 
@@ -57,6 +58,8 @@
   loadouts:
   - DocClothingCloakCmo
   - DocClothingNeckMantleCMO
+  - DoCClothingCloakFancyCMO # Aurum
+  - DoCClothingMantleFancyCMO # Aurum
 
 - type: loadoutGroup
   id: DocPDA

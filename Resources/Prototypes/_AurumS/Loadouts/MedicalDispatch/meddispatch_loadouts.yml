@@ -110,6 +110,11 @@
   equipment:
     head: ClothingHeadHatParamedicCybersun
 
+- type: loadout
+  id: VeteranCMOBeret
+  equipment:
+    head: ClothingHeadHatBeretVeteranCMO
+
 # Gloves.
 
 - type: loadout

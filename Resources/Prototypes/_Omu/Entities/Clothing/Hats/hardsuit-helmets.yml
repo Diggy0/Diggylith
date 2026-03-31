@@ -1,5 +1,5 @@
 - type: entity
-  parent: ClothingHeadSuitWithLightBase
+  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetCybersunParamedic
   name: CSI-122M "Xiézhù" hardsuit helm
   description: Helmet of the Xiézhù medical hardsuit.
@@ -12,9 +12,16 @@
     color: "#f2feff"
     radius: 7
     energy: 3
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - Snout
+    - HeadTop
+    - HeadSide
+
 
 - type: entity
-  parent: ClothingHeadSuitWithLightBase
+  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetCybersunScience
   name: CSI-128X "Guānlián" hardsuit helm
   description: Light red, non-see through faceplate for the "Guānlián" hardsuit, allows the user to weld without any protective gear underneath.
@@ -52,5 +59,11 @@
         Radiation: 0.3
         Caustic: 0.4
   - type: EyeProtection
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - Snout
+    - HeadTop
+    - HeadSide
 
 

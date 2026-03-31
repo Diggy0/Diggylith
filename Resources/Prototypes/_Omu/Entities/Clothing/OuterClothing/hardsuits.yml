@@ -27,14 +27,6 @@
     sprite: _Omu/Clothing/OuterClothing/Hardsuits/cybersunscientisthardsuit.rsi
   - type: Clothing
     sprite: _Omu/Clothing/OuterClothing/Hardsuits/cybersunscientisthardsuit.rsi
-  - type: ToggleableClothing # Goobstation - Modsuits change - Mono - this is a solution for helmet attachment/cover to not fit on hardsuits
-    requiredSlot: outerclothing
-    blockUnequipWhenAttached: false
-    replaceCurrentClothing: true
-    clothingPrototypes:
-      head: ClothingHeadHelmetCybersunScience
-      helmetcover: ClothingHeadHelmetCoverBlock
-      helmetattachment: ClothingHeadHelmetAttachmentBlock
   - type: PressureProtection
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 1000
@@ -68,6 +60,14 @@
     walkModifier: 1 # Aurum - From 0,9 to 1.
     sprintModifier: 1 # Aurum - From 0,9 to 1.
   - type: HeldSpeedModifier
+  - type: ToggleableClothing # Goobstation - Modsuits change - Mono - this is a solution for helmet attachment/cover to not fit on hardsuits
+    requiredSlot: outerclothing
+    blockUnequipWhenAttached: false
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetCybersunScience
+      helmetcover: ClothingHeadHelmetCoverBlock
+      helmetattachment: ClothingHeadHelmetAttachmentBlock
 
 
 
