@@ -31,6 +31,11 @@
     jumpsuit: ClothingUniformJumpskirtHoSParadeMale
 
 - type: loadout
+  id: BlackAndRedUniform
+  equipment:
+    jumpsuit: BlackRedUniform
+
+- type: loadout
   id: BloodredPyjamas
   equipment:
     jumpsuit: ClothingUniformJumpsuitBloodredPyjamas
