@@ -23,8 +23,8 @@
   - type: TemperatureProtection
     heatingCoefficient: 1.1
     coolingCoefficient: 0.1
-  - type: ZombificationResistance
-    zombificationResistanceCoefficient: 0.55
+#  - type: ZombificationResistance
+#    zombificationResistanceCoefficient: 0.55
 
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterJacketCargoTech]
@@ -66,8 +66,8 @@
   - type: TemperatureProtection
     heatingCoefficient: 1.1
     coolingCoefficient: 0.1
-  - type: ZombificationResistance
-    zombificationResistanceCoefficient: 0.55
+#  - type: ZombificationResistance
+#    zombificationResistanceCoefficient: 0.55
 
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterJacketParamed]
@@ -78,7 +78,7 @@
   parent: [ClothingOuterBaseMedium, AllowSuitStorageClothing] # Aurum - Removed the BaseCentCommContraband tag, because they are dead.
   id: ClothingOuterCoatCentralCommandWinter
   name: CentComm winter trenchcoat
-  description: Pride. Greed. Envy. It's not a sin if you are better than them.
+  description: Generosity. Humility. Gratitude. Those that once stood at the top now realize how it feels to be at the bottom. # Aurum - Lore changes since CentComm died.
   components:
   - type: Sprite
     sprite: _Omu/Clothing/OuterClothing/Coats/centcomwinterjacket.rsi
@@ -90,7 +90,7 @@
   id: ClothingOuterCoatCentralCommandWinterADMEME
   name: CentComm winter trenchcoat
   suffix: ADMEME
-  description: Pride. Greed. Envy. It's not a sin if you are better than them.
+  description: Generosity. Humility. Gratitude. Those that once stood at the top now realize how it feels to be at the bottom. # Aurum - Lore changes since CentComm died.
   components:
   - type: Armor
     # Aurum - We do not have woundmed.
@@ -109,11 +109,8 @@
         Radiation: 0.20
   - type: ExplosionResistance
     damageCoefficient: 0.2
-  - type: ModifyDelayedKnockdown
-    delayDelta: 3
-    knockdownTimeDelta: -3
-  - type: StaminaResistance
-    damageCoefficient: 0.3
+#  - type: StaminaResistance
+#    damageCoefficient: 0.3
   - type: TemperatureProtection
     heatingCoefficient: 0.8 # Blame it on bluespace.
     coolingCoefficient: 0.1
@@ -122,7 +119,7 @@
   parent: ClothingOuterWinterCoat # BaseCommandContraband - Aurum change, there's no command.
   id: ClothingOuterCoatHoP
   name: head of personnel's coat
-  description: A stylish coat given to a Head of Personnel.
+  description: A stylish coat given to the heads of personnel in Nanotrasen stations decades ago. Not like it has lost any of the style. # Aurum - Lore Changes
   components:
   - type: Sprite
     sprite: _Omu/Clothing/OuterClothing/Coats/hopcoat.rsi
@@ -155,7 +152,7 @@
   parent: ClothingOuterCoatLab
   id: ClothingOuterCoatMedicalcoatLong
   name: long labcoat
-  description: A Nanotrasen standard labcoat for medical personnel.
+  description: A standard labcoat for medical or research personnel. # Aurum - Lore Changes
   components:
   - type: Sprite
     sprite: _Omu/Clothing/OuterClothing/Coats/longlabcoat.rsi
@@ -166,7 +163,7 @@
   parent: ClothingOuterCoatLab
   id: ClothingOuterCoatSciencecoatLong
   name: science longcoat
-  description: A Nanotrasen standard labcoat for science personnel.
+  description: A standard labcoat for science personnel. # Aurum - Lore Changes
   components:
   - type: Sprite
     sprite: _Omu/Clothing/OuterClothing/Coats/sciencelonglabcoat.rsi
@@ -177,7 +174,7 @@
   parent: ClothingOuterCoatHoP
   id: ClothingOuterFormalJacketHoP
   name: head of personnel's formal jacket
-  description: An expensive, stylish jacket given to a Head of Personnel.
+  description: An expensive, stylish jacket given to the heads of personnel in Nanotrasen stations decades ago. Not like it has lost any of the style. # Aurum - Lore Changes
   components:
   - type: Sprite
     sprite: _Omu/Clothing/OuterClothing/Coats/hopformalcoat.rsi
@@ -188,7 +185,7 @@
   parent: ClothingOuterCoatHoP
   id: ClothingOuterFormalDressHoP
   name: head of personnel's formal dress jacket
-  description: An expensive, stylish dress given to a Head of Personnel.
+  description: An expensive, stylish dress given to the heads of personnel in Nanotrasen stations decades ago. Not like it has lost any of the style. # Aurum - Lore Changes
   components:
   - type: Sprite
     sprite: _Omu/Clothing/OuterClothing/Coats/hopformaldress.rsi
@@ -199,13 +196,13 @@
   parent: ClothingOuterStorageFoldableBase
   id: ClothingOuterCMOLabCoat
   name: CMO's splashproof labcoat
-  description: A heavy, splash resistant labcoat made out of a fabric inner layer and plastic outer layer. Practical and cozy!
+  description: A heavy, splash resistant labcoat made out of a fabric inner layer and plastic outer layer. Practical and cozy.
   components:
   - type: Sprite
     sprite: _Omu/Clothing/OuterClothing/Coats/CMOlabcoat.rsi
   - type: Clothing
     sprite: _Omu/Clothing/OuterClothing/Coats/CMOlabcoat.rsi
-  - type: ExplosionResistance
+#  - type: ExplosionResistance - Aurum change, a labcoat shouldnt have this.
   - type: Armor
     # Aurum - We do not have woundmed.
  #   coverage:

@@ -2,7 +2,7 @@
   parent: ClothingNeckCloakCentcom
   id: ClothingCloakCentCommAdmiral
   name: central command admiral cloak
-  description: A large green cloak that demands attention, and careful steps to not trip while wearing it.
+  description: A large green cloak that used to demand attention and respect, now a mere reminder of how hard tyrants fall. # Aurum - Lore Changes
   components:
   - type: Sprite
     sprite: _Omu/Clothing/Neck/Cloaks/admiralcape.rsi

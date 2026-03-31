@@ -8,23 +8,33 @@
     sprite: _Omu/Clothing/OuterClothing/Hardsuits/cybersunparamedhardsuit.rsi
   - type: Clothing
     sprite: _Omu/Clothing/OuterClothing/Hardsuits/cybersunparamedhardsuit.rsi
-  - type: ToggleableClothing
+  - type: ToggleableClothing # Goobstation - Modsuits change - Mono - this is a solution for helmet attachment/cover to not fit on hardsuits
+    requiredSlot: outerclothing
+    blockUnequipWhenAttached: false
+    replaceCurrentClothing: true
     clothingPrototypes:
       head: ClothingHeadHelmetCybersunParamedic
+      helmetcover: ClothingHeadHelmetCoverBlock
+      helmetattachment: ClothingHeadHelmetAttachmentBlock
 
 - type: entity
-  parent: [ ClothingOuterHardsuitBase, BaseSyndicateContraband ]
+  parent: ClothingOuterHardsuitBase # Aurum - Removal of BaseSyndicate Contraband.
   id: ClothingOuterHardsuitCybersunScience
   name: CSI-128X "Guānlián" hardsuit
-  description: Designed with scientific research in mind, this hardsuit designed by Cybersun Industries protects from most enviromental hazards, with the downside of less physical protection.
+  description: Designed with scientific research in mind, this hardsuit designed by Cybersun Industries protects from most enviromental hazards, with the downside of less physical protection. Used by Cybersun Industries researchers. # Aurum - Lore Changes
   components:
   - type: Sprite
     sprite: _Omu/Clothing/OuterClothing/Hardsuits/cybersunscientisthardsuit.rsi
   - type: Clothing
     sprite: _Omu/Clothing/OuterClothing/Hardsuits/cybersunscientisthardsuit.rsi
-  - type: ToggleableClothing
+  - type: ToggleableClothing # Goobstation - Modsuits change - Mono - this is a solution for helmet attachment/cover to not fit on hardsuits
+    requiredSlot: outerclothing
+    blockUnequipWhenAttached: false
+    replaceCurrentClothing: true
     clothingPrototypes:
       head: ClothingHeadHelmetCybersunScience
+      helmetcover: ClothingHeadHelmetCoverBlock
+      helmetattachment: ClothingHeadHelmetAttachmentBlock
   - type: PressureProtection
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 1000
@@ -35,8 +45,8 @@
     damageCoefficient: 0.5
   - type: FireProtection
     reduction: 0.6
-  - type: ZombificationResistance
-    zombificationResistanceCoefficient: 0.1
+#  - type: ZombificationResistance
+#    zombificationResistanceCoefficient: 0.55
   - type: Armor
     #    coverage: Aurum - We do not have woundmed.
 #    - Chest
@@ -51,12 +61,12 @@
         Blunt: 0.85
         Slash: 0.85
         Piercing: 0.80
-        Heat: 0.3
-        Radiation: 0.3
-        Caustic: 0.3
+        Heat: 0.2 # Aurum - Improved damage resistances.
+        Radiation: 0.0 # Aurum - Improved damage resistances.
+        Caustic: 0.0 # Aurum - Improved damage resistances.
   - type: ClothingSpeedModifier
-    walkModifier: 0.9
-    sprintModifier: 0.9
+    walkModifier: 1 # Aurum - From 0,9 to 1.
+    sprintModifier: 1 # Aurum - From 0,9 to 1.
   - type: HeldSpeedModifier
 
 

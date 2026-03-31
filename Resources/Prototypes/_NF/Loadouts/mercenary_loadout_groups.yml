@@ -13,6 +13,11 @@
   - MercenaryClothingUniformJumpsuitMilitaryTurtleneckBlueMercenaryMedic
   - MercenaryClothingUniformJumpsuitMilitaryTurtleneckBlueMercenaryCaptain
   - MercenaryClothingUniformJumpsitDrakeIndustriesWatchdog
+  - BlackRedUniform # Aurum
+  - BlueshieldOfficerTurtleneck # Aurum Addon
+  - BlueshieldOfficerTurtleneckSkirt # Aurum Addon
+  - BlackBlueshieldOfficerTurtleneck # Aurum Addon
+  - BlackBlueshieldOfficerTurtleneckSkirt # Aurum Addon
   subgroups:
   - MonoMercenaryJumpsuit # Mono
   - MonoUSSPJumpsuit # Mono
@@ -53,6 +58,10 @@
   - MercenaryClothingOuterArmorPunkRed # Punkish (Static visuals)
   - MercenaryClothingOuterArmorPunkRandomized # Punkish (Randomized visuals)
   - MercenaryClothingOuterArmorCaptainCarapace
+  - BSOArmoredCoat # Aurum
+  - BSOMarineVest # Aurum
+  - BSOArmoredVest # Aurum
+  - ClothingHOSWinterJacket # Aurum
   subgroups:
   - MonoMercenaryOuterClothing # Mono
   - MonoUSSPOuterClothing # Mono

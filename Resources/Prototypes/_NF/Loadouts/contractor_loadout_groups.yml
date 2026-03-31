@@ -12,6 +12,16 @@
   - ContractorClothingUniformJumpskirtBartender
   - ContractorClothingUniformJumpsuitCargo
   - ContractorClothingUniformJumpskirtCargo
+  - CargoTechnicianSweater # Aurum
+  - CargoTechnicianSweaterSkirt # Aurum
+  - CargoTechnicianShortPantsIfuckinghateyouifyouwearthisbtw # Aurum
+  - CargoTechnicianShortSkirtsInsteadofPants # Aurum
+  - QuartermasterUniform # Aurum
+  - QuartermasterUniformSkirt # Aurum
+  - HoPParadeUniformMale # Aurum
+  - HoPParadeUniformFemale # Aurum
+  - HoPTurtleneckMale # Aurum
+  - HoPTurtleneckSkirtFemale # Aurum
   - ContractorClothingUniformJumpsuitSalvageSpecialist
   - ContractorClothingUniformJumpsuitChef
   - ContractorClothingUniformJumpskirtChef
@@ -21,6 +31,9 @@
   - ContractorClothingUniformJumpskirtHydroponics
   - ContractorClothingUniformJumpsuitMedicalDoctor
   - ContractorClothingUniformJumpskirtMedicalDoctor
+  - CybersunMedicalJumpsuit # Aurum
+  - CybersunMedicalJumpskirt # Aurum
+  - ParamedUniformCybersun # Aurum
   - ContractorClothingUniformJumpsuitScientist
   - ContractorClothingUniformJumpskirtScientist
   - ContractorClothingUniformJumpsuitColorWhite
@@ -312,6 +325,9 @@
   ## Aurum Start
   - ContractorClothingCEHardsuit
   - ContractorClothingRDHardsuit
+  - LongScienceCoat
+  - ClothingLabcoatLong
+  - ChemLabcoatLong
   ## Aurum End
   ## Mono start
   - ContractorClothingOuterHardsuitAtmos
@@ -348,6 +364,10 @@
   - ContractorClothingOuterWinterCap
   - ContractorClothingOuterWinterMusician
   - ContractorClothingOuterWinterCargo
+  - CargoTechnicianJacket # Aurum
+  - ClothingFormalHoPCoat # Aurum
+  - ClothingFormalHoPJacket # Aurum
+  - ClothingFormalHoPDress # Aurum
   - ContractorClothingOuterWinterMiner
   - ContractorClothingOuterWinterEngi
   - ContractorClothingOuterWinterMed
@@ -538,6 +558,7 @@
   - ContractorClothingHeadHatParamedicsoft
   - ContractorClothingHeadNurseHat
   - ContractorClothingHeadHatBeretMedic
+  - ParamedicCapCybersun # Aurum
   - ContractorClothingHeadHatSurgcapGreen
   - ContractorClothingHeadHatSurgcapBlue
   - ContractorClothingHeadHatSurgcapPurple
@@ -638,6 +659,7 @@
   - ContractorClothingHandsGlovesBoxingYellow
   - ContractorClothingHandsGlovesCaptain
   - ContractorClothingHandsGlovesColorWhite
+  - CybersunNitrileGloves # Aurum
 
 - type: loadoutGroup
   id: ContractorNeck
@@ -698,6 +720,7 @@
 #  - ContractorClothingCloakCmo # Temp removed for MOM. Will return if replaced.
 #  - ContractorClothingNeckMantleCMO # Temp removed for MOM. Will return if replaced.
   - ContractorClothingNeckCloakRd
+  - ResearchDirectorDecoratedCloak # Aurum
   - ContractorClothingNeckMantleRD
   - ContractorClothingNeckCloakCe
   - ContractorClothingNeckMantleCE
@@ -707,6 +730,7 @@
   - ContractorClothingNeckMantleBH # Mono
   - ContractorClothingNeckCloakSanabi # Mono
   - ContractorClothingNeckUIOvercoat # Mono
+  - BlueshieldOfficerOuterBlueshieldMantleBlack # Aurum
 
 - type: loadoutGroup
   id: ContractorPDA

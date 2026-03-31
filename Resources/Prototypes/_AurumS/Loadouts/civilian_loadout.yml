@@ -1,3 +1,94 @@
+# Civilian Jumpsuits and Jumpskirts
+
+- type: loadout
+  id: CargoTechnicianSweater
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCargotechSweater
+
+- type: loadout
+  id: CargoTechnicianSweaterSkirt
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCargotechSweaterSkirt
+
+- type: loadout
+  id: CargoTechnicianShortPantsIfuckinghateyouifyouwearthisbtw
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCargotechShorts
+
+- type: loadout
+  id: CargoTechnicianShortSkirtsInsteadofPants
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCargotechShortsSkirt
+
+- type: loadout
+  id: QuartermasterUniform
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitQMUniform
+
+- type: loadout
+  id: QuartermasterUniformSkirt
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitQMUniformSkirt
+
+- type: loadout
+  id: HoPParadeUniformMale
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitHoPParade
+
+- type: loadout
+  id: HoPParadeUniformFemale
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitHoPParadeDress
+
+- type: loadout
+  id: HoPTurtleneckMale
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitHoPTurtleneck
+
+- type: loadout
+  id: HoPTurtleneckSkirtFemale
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitHoPTurtleneckSkirt
+
+# Civilian Neck Stuff
+
+- type: loadout
+  id: ResearchDirectorDecoratedCloak
+  equipment:
+    neck: ClothingNeckCloakRdFancy
+
+
+# Civilian Grade OuterClothing
+
+- type: loadout
+  id: CivilianUseLongScienceLabcoat
+  price: 0
+  equipment:
+    outerClothing: ClothingOuterCoatSciencecoatLong
+
+- type: loadout
+  id: CivilianUseCargoJacket
+  price: 0
+  equipment:
+    outerClothing: ClothingOuterJacketCargoTech
+
+- type: loadout
+  id: ClothingFormalHoPCoat
+  equipment:
+    outerClothing: ClothingOuterCoatHoP
+
+- type: loadout
+  id: ClothingFormalHoPJacket
+  equipment:
+    outerClothing: ClothingOuterFormalJacketHoP
+
+- type: loadout
+  id: ClothingFormalHoPDress
+  equipment:
+    outerClothing: ClothingOuterFormalDressHoP
+
+
+
 #Civilian Grade Hardsuits
 
 - type: loadout
@@ -11,6 +102,8 @@
   price: 8000
   equipment:
     outerClothing: ClothingOuterHardsuitRd
+
+
 
 #Civilian Grade Modsuits
 

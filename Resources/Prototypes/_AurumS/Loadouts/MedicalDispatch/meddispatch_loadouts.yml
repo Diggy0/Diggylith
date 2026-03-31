@@ -7,6 +7,36 @@
     outerClothing: ClothingOuterHardsuitMedical
 
 - type: loadout
+  id: MedicalDispatchLongLabcoat
+  price: 0
+  equipment:
+    outerClothing: ClothingOuterCoatMedicalcoatLong
+
+- type: loadout
+  id: MedicalDispatchLongChemLabcoat
+  price: 0
+  equipment:
+    outerClothing: ClothingOuterCoatLabcoatChemLong
+
+- type: loadout
+  id: MedicalDispatchParamedicJacket
+  price: 0
+  equipment:
+    outerClothing: ClothingOuterJacketParamed
+
+- type: loadout
+  id: MedicalDispatchBrigmedicJacket
+  price: 0
+  equipment:
+    outerClothing: ClothingJacketBrigmed
+
+- type: loadout
+  id: DoCOuterClothignLabcoatCMO
+  price: 0
+  equipment:
+    outerClothing: ClothingOuterCMOLabCoat
+
+- type: loadout
   id: MedicalDispatchTraumaHardsuit
   effects:
   - !type:GroupLoadoutEffect
@@ -31,4 +61,52 @@
   equipment:
     jumpsuit: ClothingUniformJumpskirtTAF
 
+- type: loadout
+  id: ParamedUniformBlueSkirt
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitParamedUniformSkirt
 
+- type: loadout
+  id: ParamedUniformBlue
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitParamedUniform
+
+- type: loadout
+  id: ParamedUniformCybersun
+  equipment:
+    jumpsuit: ClothingUniformCybersunParamedJumpsuit
+
+- type: loadout
+  id: CybersunMedicalJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformCybersunMedicalJumpsuit
+
+- type: loadout
+  id: CybersunMedicalJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformCybersunMedicalJumpskirt
+
+# Medical Dispatch Neck Stuff
+
+- type: loadout
+  id: DoCClothingCloakFancyCMO
+  equipment:
+    neck: ClothingNeckCloakCMOFancy
+
+- type: loadout
+  id: DoCClothingMantleFancyCMO
+  equipment:
+    neck: ClothingNeckMantleCMOModern
+
+# Head
+- type: loadout
+  id: ParamedicCapCybersun
+  equipment:
+    head: ClothingHeadHatParamedicCybersun
+
+# Gloves.
+
+- type: loadout
+  id: CybersunNitrileGloves
+  equipment:
+    gloves: ClothingHandsGlovesCybersunNitrile

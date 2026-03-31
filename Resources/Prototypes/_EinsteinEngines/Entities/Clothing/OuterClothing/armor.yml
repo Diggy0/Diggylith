@@ -1,8 +1,8 @@
 - type: entity
   parent: [ClothingOuterBaseMedium, AllowSuitStorageClothing, ClothingOuterStorageFoldableBase, ClothingOuterArmorCaptainCarapace] # Aurum change - In goob the BSO vest was parented to the captain caparace, so.
   id: ClothingBlueshieldArmoredCoat
-  name: blueshield's armored coat
-  description: A coat for cold winter seasons with sewn in plates.
+  name: antique blueshield's armored coat # Aurum - Lore Changes
+  description: A coat for cold winter seasons with sewn in plates, the production of these jackets ceased a while ago, while there are still offbrand replicas, this one seems real enough.
   components:
   - type: Sprite
     sprite: _EinsteinEngines/Clothing/OuterClothing/Armor/blueshield_coat.rsi
@@ -38,7 +38,7 @@
   parent: ClothingOuterArmorCaptainCarapace # Aurum change - In goob the BSO vest was parented to the captain caparace, so.
   id: ClothingBlueshieldArmoredMarine
   name: blueshield's armored marine vest
-  description: A vest from the blueshield's time in the marines.
+  description: A vest used by blueshield officers that were once deployed in the marine corps, these vests are still produced to this day, although not with the blueshield emblem. # Aurum - Lore Changes
   components:
   - type: Sprite
     sprite: _EinsteinEngines/Clothing/OuterClothing/Armor/blueshield_marine.rsi
