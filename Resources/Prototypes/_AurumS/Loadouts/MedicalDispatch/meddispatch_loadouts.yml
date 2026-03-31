@@ -7,6 +7,12 @@
     outerClothing: ClothingOuterHardsuitMedical
 
 - type: loadout
+  id: CybersunMedicalHardsuit
+  price: 0
+  equipment:
+    outerClothing: ClothingOuterHardsuitCybersunParamedic
+
+- type: loadout
   id: MedicalDispatchLongLabcoat
   price: 0
   equipment:
