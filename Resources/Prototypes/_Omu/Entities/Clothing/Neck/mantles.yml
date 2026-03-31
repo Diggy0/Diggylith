@@ -1,0 +1,21 @@
+- type: entity
+  parent: ClothingNeckMantleBlueshield
+  id: ClothingNeckMantleTwoBlueshield
+  name: blueshield officer black mantle
+  description: A mostly black mantle with blue lining along the neck, in case the other option wasn't convincing enough.
+  components:
+  - type: Sprite
+    sprite: _Omu/Clothing/Neck/Mantle/bsomantleblack.rsi
+  - type: Clothing
+    sprite: _Omu/Clothing/Neck/Mantle/bsomantleblack.rsi
+
+- type: entity
+  parent: ClothingNeckBase # BaseCommandContraband - Aurum change
+  id: ClothingNeckMantleCMOModern
+  name: chief medical officer's modern mantle
+  description: A modernised, much more comfortable version of the CMO's mantle, recolored in a more fashionable and fitting color, with sleek, white fur added on the collar and its edges, held up by a golden pin.
+  components:
+  - type: Sprite
+    sprite: _Omu/Clothing/Neck/Mantle/cmomantle.rsi
+  - type: Clothing
+    sprite: _Omu/Clothing/Neck/Mantle/cmomantle.rsi

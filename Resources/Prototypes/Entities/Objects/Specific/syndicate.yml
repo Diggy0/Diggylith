@@ -18,7 +18,7 @@
   - type: StaticPrice
     price: 0
   - type: StackPrice
-    price: 40 # Mono
+    price: 120 # Aurum - 40 -> 120, syndicate expeds now drop these too.
   - type: Currency
     price:
       Telecrystal: 1
