@@ -31,10 +31,19 @@
     jumpsuit: ClothingUniformJumpskirtHoSParadeMale
 
 - type: loadout
-  id: BlackRedUniform
+  id: BloodredPyjamas
   equipment:
-    jumpsuit: ClothingUniformBlackRedSecUniform
+    jumpsuit: ClothingUniformJumpsuitBloodredPyjamas
 
+- type: loadout
+  id: SyndicateCombatUniform
+  equipment:
+    jumpsuit: ClothingUniformSyndicateCombat
+
+- type: loadout
+  id: FormalTurtleneckSyndicate
+  equipment:
+    jumpsuit: ClothingUniformTacticalTurtleneckFormal
 
 # Merc Grade OuterClothing
 

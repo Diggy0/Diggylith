@@ -325,9 +325,9 @@
   ## Aurum Start
   - ContractorClothingCEHardsuit
   - ContractorClothingRDHardsuit
-  - LongScienceCoat
-  - ClothingLabcoatLong
-  - ChemLabcoatLong
+  - CivilianUseLongScienceLabcoat
+  - MedicalDispatchLongLabcoat
+  - MedicalDispatchLongChemLabcoat
   ## Aurum End
   ## Mono start
   - ContractorClothingOuterHardsuitAtmos
@@ -364,7 +364,7 @@
   - ContractorClothingOuterWinterCap
   - ContractorClothingOuterWinterMusician
   - ContractorClothingOuterWinterCargo
-  - CargoTechnicianJacket # Aurum
+  - CivilianUseCargoJacket # Aurum
   - ClothingFormalHoPCoat # Aurum
   - ClothingFormalHoPJacket # Aurum
   - ClothingFormalHoPDress # Aurum
