@@ -1,0 +1,34 @@
+- type: entity
+  parent: ClothingNeckCloakCentcom
+  id: ClothingCloakCentCommAdmiral
+  name: central command admiral cloak
+  description: A large green cloak that used to demand attention and respect, now a mere reminder of how hard tyrants fall. # Aurum - Lore Changes
+  components:
+  - type: Sprite
+    sprite: _Omu/Clothing/Neck/Cloaks/admiralcape.rsi
+  - type: Clothing
+    sprite: _Omu/Clothing/Neck/Cloaks/admiralcape.rsi
+
+- type: entity
+  parent: ClothingNeckBase # BaseCommandContraband - Aurum change
+  id: ClothingNeckCloakRdFancy
+  name: decorated research director's cloak
+  description: A purple cloak with silver lining, appropiate for a research director.
+  components:
+  - type: Sprite
+    sprite: _Omu/Clothing/Neck/Cloaks/rdcloak.rsi
+#  - type: StealTarget # Aurum - We don't have antags lol.
+#    stealGroup: HeadCloak
+
+- type: entity
+  parent: ClothingNeckBase # BaseCommandContraband - Aurum change
+  id: ClothingNeckCloakCMOFancy
+  name: decorated chief medical officer's cloak
+  description: A sterile blue cloak with a green cross, now decorated with a comfortable, white furred collar, as well as an attatched golden pin at the front, appropriate for a chief medical officer.
+  components:
+  - type: Sprite
+    sprite: _Omu/Clothing/Neck/Cloaks/cmocloakdecorated.rsi
+  - type: Clothing
+    sprite: _Omu/Clothing/Neck/Cloaks/cmocloakdecorated.rsi
+#  - type: StealTarget # Aurum - We don't have antags lol.
+#    stealGroup: HeadCloak

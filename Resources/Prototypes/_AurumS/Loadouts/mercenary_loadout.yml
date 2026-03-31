@@ -1,0 +1,94 @@
+# Mercenary Jumpsuits and Jumpskirts
+
+- type: loadout
+  id: BlueshieldOfficerTurtleneck
+  equipment:
+    jumpsuit: ClothingUniformBlueShieldOfficerTurtleneck
+
+- type: loadout
+  id: BlueshieldOfficerTurtleneckSkirt
+  equipment:
+    jumpsuit: ClothingUniformBlueShieldOfficerTurtleneckSkirt
+
+- type: loadout
+  id: BlackBlueshieldOfficerTurtleneck
+  equipment:
+    jumpsuit: ClothingUniformBlackBlueShieldOfficerTurtleneck
+
+- type: loadout
+  id: BlackBlueshieldOfficerTurtleneckSkirt
+  equipment:
+    jumpsuit: ClothingUniformBlackBlueShieldOfficerTurtleneckSkirt
+
+- type: loadout
+  id: HoSParadeUniformMale
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitHoSParadeMale
+
+- type: loadout
+  id: HoSParadeUniformFemale
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtHoSParadeMale
+
+- type: loadout
+  id: BlackAndRedUniform
+  equipment:
+    jumpsuit: ClothingUniformBlackRedSecUniform
+
+- type: loadout
+  id: BloodredPyjamas
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitBloodredPyjamas
+
+- type: loadout
+  id: SyndicateCombatUniform
+  equipment:
+    jumpsuit: ClothingUniformSyndicateCombat
+
+- type: loadout
+  id: FormalTurtleneckSyndicate
+  equipment:
+    jumpsuit: ClothingUniformTacticalTurtleneckFormal
+
+# Merc Grade OuterClothing
+
+- type: loadout
+  id: BSOArmoredCoat
+  equipment:
+    outerClothing: ClothingBlueshieldArmoredCoat
+
+- type: loadout
+  id: BSOMarineVest
+  equipment:
+    outerClothing: ClothingBlueshieldArmoredMarine
+
+- type: loadout
+  id: BSOArmoredVest
+  equipment:
+    outerClothing: ClothingBlueshieldArmoredVest
+
+- type: loadout
+  id: ClothingHOSWinterJacket
+  equipment:
+    outerClothing: ClothingOuterCoatHOSWinterCoat
+
+# Merc Neck Stuff
+
+- type: loadout
+  id: BlueshieldOfficerOuterBlueshieldMantleBlack
+  equipment:
+    neck: ClothingNeckMantleTwoBlueshield
+
+
+
+
+# Merc Grade Hardsuits
+
+
+
+
+
+# Merc Grade Modsuits
+
+
+

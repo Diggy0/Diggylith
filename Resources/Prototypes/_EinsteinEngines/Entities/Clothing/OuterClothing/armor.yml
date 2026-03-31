@@ -1,0 +1,61 @@
+- type: entity
+  parent: [ClothingOuterBaseMedium, AllowSuitStorageClothing, ClothingOuterStorageFoldableBase, ClothingOuterArmorCaptainCarapace] # Aurum change - In goob the BSO vest was parented to the captain caparace, so.
+  id: ClothingBlueshieldArmoredCoat
+  name: antique blueshield's armored coat # Aurum - Lore Changes
+  description: A coat for cold winter seasons with sewn in plates, the production of these jackets ceased a while ago, while there are still offbrand replicas, this one seems real enough.
+  components:
+  - type: Sprite
+    sprite: _EinsteinEngines/Clothing/OuterClothing/Armor/blueshield_coat.rsi
+  - type: Clothing
+    sprite: _EinsteinEngines/Clothing/OuterClothing/Armor/blueshield_coat.rsi
+  - type: Armor
+#    coverage: Aurum - We do not have woundmed.
+#    - Chest
+#    traumaDeductions:
+#      Dismemberment: 0.2
+#      OrganDamage: 0.2
+#      BoneDamage: 0.2
+#      VeinsDamage: 0
+#      NerveDamage: 0
+    modifiers:
+      coefficients:
+        Blunt: 0.3
+        Slash: 0.3
+        Piercing: 0.4
+        Heat: 0.3
+        Caustic: 0.75
+  - type: TemperatureProtection
+    heatingCoefficient: 0.1
+    coolingCoefficient: 0.1
+
+- type: entity
+  parent: [ClothingOuterStorageFoldableBaseOpened, ClothingBlueshieldArmoredCoat]
+  id: ClothingBlueshieldArmoredCoatOpen
+  name: blueshield's armored coat
+  suffix: Opened
+
+- type: entity
+  parent: ClothingOuterArmorCaptainCarapace # Aurum change - In goob the BSO vest was parented to the captain caparace, so.
+  id: ClothingBlueshieldArmoredMarine
+  name: blueshield's armored marine vest
+  description: A vest used by blueshield officers that were once deployed in the marine corps, these vests are still produced to this day, although not with the blueshield emblem. # Aurum - Lore Changes
+  components:
+  - type: Sprite
+    sprite: _EinsteinEngines/Clothing/OuterClothing/Armor/blueshield_marine.rsi
+  - type: Clothing
+    sprite: _EinsteinEngines/Clothing/OuterClothing/Armor/blueshield_marine.rsi
+  - type: Item
+    size: Normal
+
+- type: entity
+  parent: ClothingOuterArmorCaptainCarapace # Aurum change - In goob the BSO vest was parented to the captain caparace, so.
+  id: ClothingBlueshieldArmoredVest
+  name: blueshield's armored vest
+  description: A vest with sewn-in reinforcement layers.
+  components:
+  - type: Sprite
+    sprite: _EinsteinEngines/Clothing/OuterClothing/Armor/blueshield_vest.rsi
+  - type: Clothing
+    sprite: _EinsteinEngines/Clothing/OuterClothing/Armor/blueshield_vest.rsi
+  - type: Item
+    size: Normal

@@ -1,0 +1,15 @@
+- type: entity
+  parent: ClothingHandsGlovesCombat
+  id: ClothingHandsAdmemeOhLordHeComin
+  name: plated gloves
+  description: He's gonna give it to ya.
+  components:
+  - type: MeleeWeapon
+    autoAttack: true
+    attackRate: 2.5
+    damage:
+      types:
+        Blunt: 50
+        Structural: 200
+    soundHit:
+      collection: Punch

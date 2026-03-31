@@ -3,6 +3,8 @@
   name: loadout-group-contractor-outerclothing
   minLimit: 0
   loadouts:
+  - MedicalDispatchLongLabcoat
+  - MedicalDispatchLongChemLabcoat
   - ContractorClothingOuterCoatLab
   - ContractorClothingOuterCoatLabGene
   - ContractorClothingOuterCoatLabChem
@@ -15,6 +17,10 @@
   - ContractorClothingOuterCoatParamedicWB
   - ContractorClothingOuterWinterPara
   - ContractorClothingOuterCoatLabSeniorPhysician
+  - MedicalDispatchBrigmedicJacket
+  - MedicalDispatchParamedicJacket
+  - DoCOuterClothignLabcoatCMO
+  - CybersunMedicalHardsuit
   - ContractorClothingOuterHardsuitVoidParamed
   - MedicalDispatchCMOHardsuit
   - MedicalDispatchTraumaHardsuit

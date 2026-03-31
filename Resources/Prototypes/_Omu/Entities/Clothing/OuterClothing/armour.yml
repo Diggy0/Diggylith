@@ -1,0 +1,12 @@
+- type: entity
+  parent: ClothingOuterArmorCaptainCarapace # ClothingBlueshieldArmourVest - Aurum change: The blueshield armor vest parents off of the Captain caparace, so.
+  id: ClothingOuterBlueshieldArmourKimono
+  name: blueshield's armored kimono
+  description: An armored vest with the badge of the blueshield. Utilizes bluespace technology to be more compact. These kimonos remain expensive for their affiliation with the blueshield officers and the vague connection to the now fallen Central Command. # Aurum - Lore Changes
+  components:
+  - type: Sprite
+    sprite: _Omu/Clothing/OuterClothing/Armour/ClothingOuterBlueshieldArmourKimono.rsi
+  - type: Clothing
+    sprite: _Omu/Clothing/OuterClothing/Armour/ClothingOuterBlueshieldArmourKimono.rsi
+  - type: Item
+    size: Normal
