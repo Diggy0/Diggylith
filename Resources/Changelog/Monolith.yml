@@ -19235,3 +19235,14 @@ Entries:
   id: 2121
   time: '2026-04-03T17:42:36.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3681
+- author: chuga-git
+  changes:
+    - type: Add
+      message: >-
+        ASM-220 "Trident" 500mm torpedo rack and GPOB-L Light Munitions Bay are
+        now anchorable. 
+    - type: Add
+      message: ASM-220 HE and ECM torpedos are now significantly faster.
+  id: 2122
+  time: '2026-04-03T17:45:12.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3673
