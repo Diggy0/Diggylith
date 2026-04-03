@@ -72,6 +72,11 @@
   equipment:
     outerClothing: ClothingOuterCoatHOSWinterCoat
 
+- type: loadout
+  id: BlackWinterJacket
+  equipment:
+    outerClothing: ClothingJacketBlackWinterJacket
+
 # Merc Neck Stuff
 
 - type: loadout

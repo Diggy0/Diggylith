@@ -28,3 +28,61 @@
   - type: StaticPrice
     price: 100
     vendPrice: 500
+
+- type: entity
+  parent: [ClothingOuterStorageFoldableBase, ClothingOuterCoatDetective]
+  id: ClothingOuterCoatBrownDetectiveTrenchcoat
+  name: brown trenchcoat
+  description: Maybe you are missing the tie and the white shirt to be a true detective, or maybe you're just one of those people that want to look like they are with the police.
+  components:
+  - type: Sprite
+    sprite: _AurumS/Clothing/OuterClothing/Coats/browndetective_trenchcoat.rsi
+  - type: Clothing
+    sprite: _AurumS/Clothing/OuterClothing/Coats/browndetective_trenchcoat.rsi
+
+- type: entity
+  parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatBrownDetectiveTrenchcoat]
+  id: ClothingOuterCoatBrownDetectiveTrenchcoatOPEN
+
+- type: entity
+  parent: [ClothingOuterStorageFoldableBase, ClothingOuterCoatDetective]
+  id: ClothingOuterCoatBlackDetectiveTrenchcoat
+  name: black trenchcoat
+  description: A black trenchcoat, you feel like a detective in some grim black and white film.
+  components:
+  - type: Sprite
+    sprite: _AurumS/Clothing/OuterClothing/Coats/detective_trenchcoat_black.rsi
+  - type: Clothing
+    sprite: _AurumS/Clothing/OuterClothing/Coats/detective_trenchcoat_black.rsi
+
+- type: entity
+  parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatBlackDetectiveTrenchcoat]
+  id: ClothingOuterCoatBlackDetectiveTrenchcoatOPEN
+
+- type: entity
+  parent: [ClothingOuterBaseMedium, AllowSuitStorageClothing, ClothingOuterStorageFoldableBase, ClothingOuterArmorCaptainCarapace] # Aurum change - In goob the BSO vest was parented to the captain caparace, so.
+  id: ClothingJacketBlackWinterJacket
+  name: black winter jacket
+  description: Aurum? I'm more of a argentum guy myself.
+  components:
+  - type: Sprite
+    sprite: _AurumS/Clothing/OuterClothing/Coats/black_winter_jacket.rsi
+  - type: Clothing
+    sprite: _AurumS/Clothing/OuterClothing/Coats/black_winter_jacket.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.3
+        Slash: 0.3
+        Piercing: 0.4
+        Heat: 0.3
+        Caustic: 0.75
+  - type: TemperatureProtection
+    heatingCoefficient: 0.1
+    coolingCoefficient: 0.1
+
+- type: entity
+  parent: [ClothingOuterStorageFoldableBaseOpened, ClothingJacketBlackWinterJacket]
+  id: ClothingJacketBlackWinterJacketOPENED
+  name: black winter jacket
+  suffix: Opened

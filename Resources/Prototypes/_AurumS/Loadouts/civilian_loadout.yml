@@ -73,6 +73,18 @@
     outerClothing: ClothingOuterJacketCargoTech
 
 - type: loadout
+  id: BrownDetectiveTrenchcoat
+  price: 0
+  equipment:
+    outerClothing: ClothingOuterCoatBrownDetectiveTrenchcoat
+
+- type: loadout
+  id: BlackDetectiveTrenchcoat
+  price: 0
+  equipment:
+    outerClothing: ClothingOuterCoatBlackDetectiveTrenchcoat
+
+- type: loadout
   id: ClothingFormalHoPCoat
   equipment:
     outerClothing: ClothingOuterCoatHoP
