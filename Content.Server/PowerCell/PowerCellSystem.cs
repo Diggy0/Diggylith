@@ -43,6 +43,7 @@ public sealed partial class PowerCellSystem : SharedPowerCellSystem
         SubscribeLocalEvent<PowerCellSlotComponent, ExaminedEvent>(OnCellSlotExamined);
         // funny
         SubscribeLocalEvent<PowerCellSlotComponent, BeingMicrowavedEvent>(OnSlotMicrowaved);
+        SubscribeLocalEvent<PowerCellSlotComponent, SearchForBatteryEvent>(OnSearchForBattery); // DeltaV - event-based search for battery
     }
 
     private void OnSlotMicrowaved(EntityUid uid, PowerCellSlotComponent component, BeingMicrowavedEvent args)
@@ -55,6 +56,15 @@ public sealed partial class PowerCellSystem : SharedPowerCellSystem
 
         RaiseLocalEvent(slot.Item.Value, args);
     }
+
+    // Begin DeltaV - event-based search for battery
+    private void OnSearchForBattery(Entity<PowerCellSlotComponent> ent, ref SearchForBatteryEvent args)
+    {
+        args.Handled = TryGetBatteryFromSlot(ent, out args.Uid, out args.Component);
+    }
+    // End DeltaV - event-based search for battery
+
+
 
     private void OnChargeChanged(EntityUid uid, PowerCellComponent component, ref ChargeChangedEvent args)
     {

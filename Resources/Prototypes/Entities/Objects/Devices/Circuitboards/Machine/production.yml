@@ -705,6 +705,8 @@
         Plastic: 30
     - type: StaticPrice
       price: 15
+    - type: Tag # DeltaV - augment construction
+      tags: [ AugmentAPCBoard ]
 
 - type: entity
   id: PowerCageRechargerCircuitboard
@@ -750,6 +752,8 @@
         Plastic: 30
     - type: StaticPrice
       price: 15
+    - type: Tag # DeltaV - augment construction
+      tags: [ AugmentStationBoard ]
 
 - type: entity
   id: WeaponCapacitorRechargerCircuitboard
