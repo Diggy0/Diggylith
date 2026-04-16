@@ -19950,3 +19950,12 @@ Entries:
   id: 2202
   time: '2026-04-16T16:04:10.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3781
+- author: Illumos
+  changes:
+    - type: Add
+      message: Added yip & whine emote to Vulpkanin, from the fox sounds.
+    - type: Tweak
+      message: Old Vulpkanin whine is now called "whimper".
+  id: 2203
+  time: '2026-04-16T16:16:57.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3538
