@@ -182,3 +182,21 @@
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: StaticPrice
     price: 4000
+  - type: TechnologyDatabase
+    supportedDisciplines:
+    - Industrial
+    - Arsenal
+    - Experimental
+    - CivilianServices
+    - MechaEngineering
+    # Aurum Changes Start - Give civs something to do while the server get it's footing
+    - FactionUniversal
+    - RogueWeaponry
+    - RogueGear
+    - RogueEquipment
+    - Ussp
+    - UsspShipyard
+    - UsspEquipment
+    - UsspWeapons
+    - ViperGroup
+    # Aurum Changes End - Give civs something to do while the server get it's footing

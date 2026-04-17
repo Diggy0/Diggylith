@@ -20,6 +20,11 @@
     - CivilianServices
     - MechaEngineering
     - FactionUniversal
+    # Aurum Changes Start - Give civs something to do while the server get it's footing
+    - TsfmcWeaponry
+    - TsfmcGear
+    - TsfmcEquipment
+    # Aurum Changes End - Give civs something to do while the server get it's footing
   - type: ApcPowerReceiver
     powerLoad: 200
   - type: ExtensionCableReceiver
