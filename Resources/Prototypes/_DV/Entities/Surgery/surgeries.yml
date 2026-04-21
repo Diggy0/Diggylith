@@ -10,6 +10,8 @@
     - SurgeryStepSawBones
     - SurgeryStepInsertAugmentPowerCellSlot
     - SurgeryStepSealOrganWound
+  - type: SurgeryOrganSlotCondition
+    organSlot: powerCell
   - type: SurgeryPartCondition
     part: Torso
   - type: SurgeryOrganCondition
@@ -17,8 +19,6 @@
     - type: AugmentPowerCellSlot
     inverse: true
     reattaching: true
-  - type: SurgeryOrganSlotCondition
-    organSlot: powerCell
 
 - type: entity
   parent: SurgeryBase
@@ -32,11 +32,11 @@
     - SurgeryStepSawBones
     - SurgeryStepOpenOrganSlot
     - SurgeryStepSealOrganWound
-  - type: SurgeryPartCondition
-    part: Torso
   - type: SurgeryOrganSlotCondition
     organSlot: powerCell
     inverse: true
+  - type: SurgeryPartCondition
+    part: Torso
   - type: SurgeryBodyCondition
     accepted: [ IPC ]
     inverse: true
@@ -150,6 +150,8 @@
     - SurgeryStepSawBones
     - SurgeryStepInsertAugmentArm
     - SurgeryStepSealOrganWound
+  - type: SurgeryOrganSlotCondition
+    organSlot: armImplant
   - type: SurgeryPartCondition
     part: Arm
   - type: SurgeryOrganCondition
@@ -157,8 +159,6 @@
     - type: AugmentArm
     inverse: true
     reattaching: true
-  - type: SurgeryOrganSlotCondition
-    organSlot: armImplant
 
 - type: entity
   parent: SurgeryBase
