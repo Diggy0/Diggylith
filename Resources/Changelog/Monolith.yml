@@ -20309,3 +20309,10 @@ Entries:
   id: 2238
   time: '2026-04-22T21:56:00.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3852
+- author: EckoAurum
+  changes:
+    - type: Add
+      message: Large Thrusters are now craftable and upgradeable.
+  id: 2239
+  time: '2026-04-22T23:15:18.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3703
