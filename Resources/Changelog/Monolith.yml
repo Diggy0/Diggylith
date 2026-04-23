@@ -20316,3 +20316,13 @@ Entries:
   id: 2239
   time: '2026-04-22T23:15:18.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3703
+- author: Redrover1760
+  changes:
+    - type: Tweak
+      message: >-
+        Shield balance retweaked to what it was around before, MS-250 with slow
+        and tanky, MS-500 with fast recharge and collision resist etc,
+        descriptions added to shielding.
+  id: 2240
+  time: '2026-04-23T00:01:18.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3860
