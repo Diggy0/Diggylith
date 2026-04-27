@@ -3,7 +3,7 @@
   parent: RogueSiliconGiftBox
   name: NT Security equipement crate
   id: ClothingBackpackRogueNanotrasenT1
-  description: A Nanotrasen security forces gear crate.
+  description: A Nanotrasen security forces gear crate, has a couple scratches, paint's dry. One must wonder how this ever got to your hands. # Aurum - Lore Slop
   suffix: NPC Loot, T1
   # categories: [ HideSpawnMenu ] #Mono: spawnable for easier testing, why tf wasnt it spawnable anyway
   components:
@@ -75,7 +75,7 @@
   parent: RogueSiliconGiftBox
   name: NT Navy equipement crate
   id: ClothingBackpackRogueNanotrasenT2
-  description: A Nanotrasen corporate navy gear crate.
+  description: A Nanotrasen corporate navy gear crate. What once was a sign of pride, or something valuable, is now a relic to reminisce of the days before the Corporate war. # Aurum - Lore Slop
   suffix: NPC Loot, T2
   # categories: [ HideSpawnMenu ] #Mono: spawnable for easier testing, why tf wasnt it spawnable anyway
   components:
@@ -134,7 +134,7 @@
   parent: RogueSiliconGiftBox
   name: NT Spec Ops equipement crate
   id: ClothingBackpackRogueNanotrasenT3
-  description: A Nanotrasen special operation gear crate.
+  description: A Nanotrasen special operation gear crate. Containing clothing, or gear handed to Central Command Officals, ERT units, or Central Command personnel. # Aurum - Lore Slop
   suffix: NPC Loot, T3
   # categories: [ HideSpawnMenu ] #Mono: spawnable for easier testing, why tf wasnt it spawnable anyway
   components:
