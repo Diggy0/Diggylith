@@ -925,6 +925,9 @@
     speedModifierThresholds:
       66: 0.7
       88: 0.5
+  - type: MovementSpeedModifier
+    baseWalkSpeed : 2.00
+    baseSprintSpeed : 2.00
   - type: Stamina
     critThreshold: 600
   - type: ProjectileBatteryAmmoProvider
@@ -1088,6 +1091,9 @@
     speedModifierThresholds:
       200: 0.7
       260: 0.5
+  - type: MovementSpeedModifier
+    baseWalkSpeed : 2.00
+    baseSprintSpeed : 2.00
   - type: Stamina
     critThreshold: 600
   - type: BasicEntityAmmoProvider

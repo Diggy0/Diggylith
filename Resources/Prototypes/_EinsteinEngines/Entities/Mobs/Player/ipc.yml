@@ -70,7 +70,7 @@
   - type: MobThresholds
     thresholds:
       0: Alive
-      100: Dead # mono
+      120: Dead # Aurum 100 -> 120
     stateAlertDict:
       Alive: BorgHealth
       Critical: BorgCrit

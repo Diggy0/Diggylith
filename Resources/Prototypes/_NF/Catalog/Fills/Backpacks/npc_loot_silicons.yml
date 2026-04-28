@@ -365,7 +365,7 @@
     - id: ClothingOuterCoatOneStarUnitOfficer
       prob: 0.8
     - id: ClothingOuterHardsuitOneStarUnitEngineering
-      prob: 0.4
+      prob: 1
     # Aurum - Lore loot trust fr
     sound:
       path: /Audio/Machines/windoor_open.ogg
