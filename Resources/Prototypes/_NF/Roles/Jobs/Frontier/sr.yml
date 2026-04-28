@@ -9,7 +9,14 @@
     - !type:RoleTimeRequirement
       role: JobSecurityGuard
       time: 7200 # 2 hrs as security guard - mono
-  whitelisted: false # Aurum - Whitelisted server, we shouldnt have many issues.
+    # Factions are required here because Overseer needs to actually understand how both factions work.
+    - !type:RoleTimeRequirement
+      role: JobPirate
+      time: 18000 # 5 hours
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 18000 # 5 hours
+  whitelisted: false
   startingGear: SrGear
   alwaysUseSpawner: true
   assignedCompany: Colonial
@@ -20,7 +27,9 @@
   displayWeight: 60 # Top
   canBeAntag: false
   accessGroups:
-  - AllAccessSR
+  - AllAccessMono #Mono
+  access:
+  - HeadOfPersonnel #Mono
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ] # Mono - remove TSFMC implant
