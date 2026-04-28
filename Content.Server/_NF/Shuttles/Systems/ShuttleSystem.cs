@@ -23,7 +23,7 @@ public sealed partial class ShuttleSystem
         SubscribeLocalEvent<ShuttleConsoleComponent, SetMaxShuttleSpeedRequest>(OnSetMaxShuttleSpeed);
     }
 
-    public bool SetInertiaDampening(EntityUid uid, PhysicsComponent physicsComponent, ShuttleComponent shuttleComponent, TransformComponent transform, InertiaDampeningMode mode)
+    private bool SetInertiaDampening(EntityUid uid, PhysicsComponent physicsComponent, ShuttleComponent shuttleComponent, TransformComponent transform, InertiaDampeningMode mode)
     {
         if (!transform.GridUid.HasValue)
         {
@@ -49,9 +49,6 @@ public sealed partial class ShuttleSystem
             InertiaDampeningMode.Anchor => AnchorDampingStrength,
             _ => DampenDampingStrength, // other values: default to some sane behaviour (assume normal dampening)
         };
-
-        if (shuttleComponent.DampingModifier == shuttleComponent.BodyModifier)
-            return true;
 
         if (shuttleComponent.DampingModifier != 0)
             shuttleComponent.DampingModifier = shuttleComponent.BodyModifier;

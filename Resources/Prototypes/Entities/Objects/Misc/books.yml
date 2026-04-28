@@ -249,6 +249,9 @@
     damage:
       types:
         Blunt: 6
+  - type: GuideHelp
+    guides:
+    - Security
     # - Antagonists # Frontier: removed guidebook entry
 
 - type: entity

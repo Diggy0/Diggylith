@@ -6,7 +6,6 @@
     contents:
     - id: HyperFlash
     - id: WeaponPulsePistol
-    - id: RubberStampWinterSolstice #mono
 
 - type: entity
   parent: ClothingBackpackSatchelLeather
@@ -18,7 +17,6 @@
     - id: BoxFolderNuclearCodes # ka-BOOM
     - id: NukeOverride
     - id: HyperFlash
-    - id: RubberStampWinterSolstice # mono
 
 - type: entity
   parent: ClothingBackpackChameleon
@@ -29,4 +27,3 @@
     - id: ExecutiveIDCardChameleon
     - id: WeaponPulsePistol
     - id: HyperFlash
-    - id: RubberStampWinterSolstice # mono

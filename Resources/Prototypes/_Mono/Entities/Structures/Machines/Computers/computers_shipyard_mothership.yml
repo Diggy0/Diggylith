@@ -136,6 +136,6 @@
   components:
   - type: ShipyardListing
     shuttles:
-    - Rook
-    - Taser
-    - Hound
+    - Ant
+    - Worm
+    - Insect

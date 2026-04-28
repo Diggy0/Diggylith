@@ -1,8 +1,0 @@
-- type: latheRecipe
-  id: CapsuleEconomyRecipe
-  result: CapsuleEconomy
-  categories:
-  - Materials
-  completetime: 5
-  materials:
-    Steel: 1000

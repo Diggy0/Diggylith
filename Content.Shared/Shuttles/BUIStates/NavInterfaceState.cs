@@ -21,6 +21,8 @@ public sealed class NavInterfaceState
 
     public Dictionary<NetEntity, List<DockingPortState>> Docks;
 
+    public bool RotateWithEntity = true;
+
     /// <summary>
     /// Custom display names for network port buttons.
     /// Key is the port ID, value is the display name.
@@ -44,13 +46,18 @@ public sealed class NavInterfaceState
     public bool HideCoords = false;
     // End Frontier fields
 
+    public bool Pannable = true; // Mono
+    public bool RelativePanning = false; // Mono
+
     public NavInterfaceState(
         float maxRange,
         NetCoordinates? coordinates,
         Angle? angle,
         Dictionary<NetEntity, List<DockingPortState>> docks,
         InertiaDampeningMode dampeningMode, // Frontier: add dampeningMode
-        Dictionary<string, string>? networkPortNames = null)
+        Dictionary<string, string>? networkPortNames = null,
+        bool pannable = true, // Mono
+        bool relativePan = false) // Mono
     {
         MaxRange = maxRange;
         Coordinates = coordinates;
@@ -58,6 +65,8 @@ public sealed class NavInterfaceState
         Docks = docks;
         DampeningMode = dampeningMode; // Frontier
         NetworkPortNames = networkPortNames ?? new Dictionary<string, string>();
+        Pannable = pannable; // Mono
+        RelativePanning = relativePan; // Mono
     }
 }
 

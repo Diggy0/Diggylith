@@ -47,10 +47,6 @@ public sealed partial class MachineBoardComponent : Component
     /// </summary>
     [DataField]
     public bool Flatpackable = true;
-
-    /// Mono - sets the framesize this board can go into
-    [DataField]
-    public string? FrameSize = null;
 }
 
 [DataDefinition, Serializable]

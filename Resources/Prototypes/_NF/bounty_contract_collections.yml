@@ -4,11 +4,11 @@
   notificationType: Radio
   name: bounty-contract-collection-name-command
   writeAccess:
-  - Command #Monolith start change: Changges access
-  - GrandVizier
+  - HeadOfPersonnel
+  - HeadOfSecurity
   deleteAccess:
-  - Command
-  - GrandVizier #Monolith end change
+  - HeadOfPersonnel
+  - HeadOfSecurity
   categories:
   - Criminal
   - Vacancy

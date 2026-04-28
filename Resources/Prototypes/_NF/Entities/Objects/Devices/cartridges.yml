@@ -79,3 +79,6 @@
       sprite: _NF/Objects/Devices/cartridge.rsi
       state: contraband_forensics
     - type: ForensicsCartridge
+    - type: GuideHelp
+      guides:
+      - Forensics

@@ -58,7 +58,6 @@ namespace Content.Server.Lathe
         [Dependency] private readonly ReagentSpeedSystem _reagentSpeed = default!;
         [Dependency] private readonly SharedSolutionContainerSystem _solution = default!;
         [Dependency] private readonly StackSystem _stack = default!;
-        [Dependency] private readonly ContrabandTurnInSystem _contraband = default!; // Mono
         [Dependency] private readonly TransformSystem _transform = default!;
         [Dependency] private readonly DeviceLinkSystem _deviceLink = default!; // Mono
 
@@ -226,7 +225,7 @@ namespace Content.Server.Lathe
         }
 
         public bool TryAddToQueue(EntityUid uid, LatheRecipePrototype recipe, int quantity, LatheComponent? component = null, // Frontier: add quantity
-                                   EntityUid? actor = null, bool canDebt = false) // Mono
+                                  bool canDebt = false) // Mono
         {
             if (!Resolve(uid, ref component))
                 return false;
@@ -244,8 +243,7 @@ namespace Content.Server.Lathe
             if (component.Queue.Count > 0 && component.Queue[^1].Recipe.ID == recipe.ID)
                 component.Queue[^1].ItemsRequested += quantity;
             else
-                component.Queue.Add(new LatheRecipeBatch(recipe, 0, quantity,
-                GetNetEntity(actor))); // Mono: Adds actor
+                component.Queue.Add(new LatheRecipeBatch(recipe, 0, quantity));
             // End Frontier
             // component.Queue.Add(recipe); // Frontier
 
@@ -266,7 +264,6 @@ namespace Content.Server.Lathe
 
             // Frontier: handle batches
             var batch = component.Queue.First();
-            var actor = batch.Actor; // Mono: Adds actor
             var recipe = batch.Recipe;
             // <Mono> - resources now consumed as the production goes
             if (!CanProduce(uid, recipe, 1, component))
@@ -299,7 +296,6 @@ namespace Content.Server.Lathe
             var lathe = EnsureComp<LatheProducingComponent>(uid);
             lathe.StartTime = _timing.CurTime;
             lathe.ProductionLength = time * component.FinalTimeMultiplier; // Frontier: TimeMultiplier<FinalTimeMultiplier
-            lathe.Actor = GetEntity(actor);
             component.CurrentRecipe = recipe;
 
             var ev = new LatheStartPrintingEvent(recipe);
@@ -329,13 +325,8 @@ namespace Content.Server.Lathe
 
                     // Frontier: adjust price before merge (stack prices changed once)
                     if (result.Valid)
-                    {
                         ModifyPrintedEntityPrice(uid, comp, result);
-                        // End Frontier
-
-                        // Mono: Handle printable contraband
-                        _contraband.HandleContrabandValueByCompany(result, prodComp.Actor);
-                    }
+                    // End Frontier
 
                     _stack.TryMergeToContacts(result);
                 }
@@ -364,9 +355,8 @@ namespace Content.Server.Lathe
                 }
 
                 // <Mono>
-                // Add the actor that previously queued to looped items
                 if (comp.Loop)
-                    TryAddToQueue(uid, comp.CurrentRecipe, 1, comp, prodComp.Actor, true);
+                    TryAddToQueue(uid, comp.CurrentRecipe, 1, comp, true);
 
                 _deviceLink.SendSignal(uid, comp.ProducedPort, true);
                 // </Mono>
@@ -503,7 +493,7 @@ namespace Content.Server.Lathe
             if (_proto.TryIndex(args.ID, out LatheRecipePrototype? recipe))
             {
                 // Frontier: batching recipes
-                if (TryAddToQueue(uid, recipe, args.Quantity, component, args.Actor))
+                if (TryAddToQueue(uid, recipe, args.Quantity, component))
                 {
                     _adminLogger.Add(LogType.Action,
                         LogImpact.Low,

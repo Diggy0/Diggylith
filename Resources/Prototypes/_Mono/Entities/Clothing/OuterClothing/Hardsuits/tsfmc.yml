@@ -224,7 +224,7 @@
     startingCharge: 150
   - type: BatterySelfRecharger
     autoRecharge: true
-    autoRechargeRate: 1.5
+    autoRechargeRate: 0.15
   - type: RechargeableBlocking
   - type: UseDelay
     delay: 10

@@ -8,9 +8,9 @@
     damage:
       types:
         Piercing: 70
-        Structural: 500
+        Structural: 250
     ignoreResistances: true # Goobstation
-    penetrationThreshold: 500
+    penetrationThreshold: 250
     penetrationDamageTypeRequirement:
     - Structural
   - type: StaminaDamageOnCollide

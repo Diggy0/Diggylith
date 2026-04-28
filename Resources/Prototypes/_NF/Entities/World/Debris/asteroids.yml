@@ -458,16 +458,6 @@
     - type: BlobFloorPlanBuilder
       floorPlacements: 16
       radius: 6
-      # Mono start - larpy/realisticly and immersively named space rocks
-    - type: RandomMetadata
-      nameSeparator: ""
-      nameSegments:
-      - DroneHex
-      - DroneHex
-      - DroneHex
-      - DroneHex
-      - AsteroidDiscoverer
-      # Mono end
 
 - type: entity
   id: NFBaseAsteroidMedium
@@ -478,16 +468,6 @@
     - type: BlobFloorPlanBuilder
       floorPlacements: 24
       radius: 8
-      # Mono start - larpy/realisticly and immersively named space rocks
-    - type: RandomMetadata
-      nameSeparator: ""
-      nameSegments:
-      - DroneHex
-      - DroneHex
-      - DroneHex
-      - DroneHex
-      - AsteroidDiscoverer
-      # Mono end
 
 - type: entity
   id: NFBaseAsteroidLarge
@@ -498,16 +478,6 @@
     - type: BlobFloorPlanBuilder
       floorPlacements: 36
       radius: 10
-      # Mono start - larpy/realisticly and immersively named space rocks
-    - type: RandomMetadata
-      nameSeparator: ""
-      nameSegments:
-      - DroneHex
-      - DroneHex
-      - DroneHex
-      - DroneHex
-      - AsteroidDiscoverer
-      # Mono end
 
 - type: entity
   id: NFBaseAsteroidExtraLarge
@@ -518,16 +488,6 @@
     - type: BlobFloorPlanBuilder
       floorPlacements: 52
       radius: 12
-      # Mono start - larpy/realisticly and immersively named space rocks
-    - type: RandomMetadata
-      nameSeparator: ""
-      nameSegments:
-      - DroneHex
-      - DroneHex
-      - DroneHex
-      - DroneHex
-      - AsteroidDiscoverer
-      # Mono end
 
 - type: entity
   id: NFBaseAsteroidHuge
@@ -538,16 +498,6 @@
     - type: BlobFloorPlanBuilder
       floorPlacements: 72
       radius: 16
-      # Mono start - larpy/realisticly and immersively named space rocks
-    - type: RandomMetadata
-      nameSeparator: ""
-      nameSegments:
-      - DroneHex
-      - DroneHex
-      - DroneHex
-      - DroneHex
-      - AsteroidDiscoverer
-      # Mono end
 
 - type: entity
   id: NFBaseAsteroidExtraHuge
@@ -558,16 +508,6 @@
     - type: BlobFloorPlanBuilder
       floorPlacements: 96
       radius: 18
-      # Mono start - larpy/realisticly and immersively named space rocks
-    - type: RandomMetadata
-      nameSeparator: ""
-      nameSegments:
-      - DroneHex
-      - DroneHex
-      - DroneHex
-      - DroneHex
-      - AsteroidDiscoverer
-      # Mono end
 
 - type: entity
   id: NFBaseAsteroidEnormous
@@ -578,16 +518,6 @@
     - type: BlobFloorPlanBuilder
       floorPlacements: 124
       radius: 20
-      # Mono start - larpy/realisticly and immersively named space rocks
-    - type: RandomMetadata
-      nameSeparator: ""
-      nameSegments:
-      - DroneHex
-      - DroneHex
-      - DroneHex
-      - DroneHex
-      - AsteroidDiscoverer
-      # Mono end
 
 - type: entity
   id: NFBaseAsteroidExtraEnormous
@@ -598,16 +528,6 @@
     - type: BlobFloorPlanBuilder
       floorPlacements: 156
       radius: 22
-      # Mono start - larpy/realisticly and immersively named space rocks
-    - type: RandomMetadata
-      nameSeparator: ""
-      nameSegments:
-      - DroneHex
-      - DroneHex
-      - DroneHex
-      - DroneHex
-      - AsteroidDiscoverer
-      # Mono end
 
 - type: entity
   id: NFBaseAsteroidMassive
@@ -618,16 +538,6 @@
     - type: BlobFloorPlanBuilder
       floorPlacements: 192
       radius: 24
-      # Mono start - larpy/realisticly and immersively named space rocks
-    - type: RandomMetadata
-      nameSeparator: ""
-      nameSegments:
-      - DroneHex
-      - DroneHex
-      - DroneHex
-      - DroneHex
-      - AsteroidDiscoverer
-      # Mono end
 
 - type: entity
   id: NFBaseAsteroidExtraMassive
@@ -638,18 +548,6 @@
     - type: BlobFloorPlanBuilder
       floorPlacements: 232
       radius: 24
-      # Mono start - larpy/realisticly and immersively named space rocks
-    - type: RandomMetadata
-      nameSeparator: ""
-      nameSegments:
-      - DroneHex
-      - DroneHex
-      - DroneHex
-      - DroneHex
-      - AsteroidDiscoverer
-      - " "
-      - AsteroidDiscovererMajor
-      # Mono end
 
 - type: entity
   id: NFBaseAsteroidGigantic
@@ -660,18 +558,6 @@
     - type: BlobFloorPlanBuilder
       floorPlacements: 276
       radius: 26
-      # Mono start - larpy/realisticly and immersively named space rocks
-    - type: RandomMetadata
-      nameSeparator: ""
-      nameSegments:
-      - DroneHex
-      - DroneHex
-      - DroneHex
-      - DroneHex
-      - AsteroidDiscoverer
-      - " "
-      - AsteroidDiscovererMajor
-      # Mono end
 
 - type: entity
   id: NFBaseAsteroidExtraGigantic
@@ -682,18 +568,6 @@
     - type: BlobFloorPlanBuilder
       floorPlacements: 324
       radius: 28
-      # Mono start - larpy/realisticly and immersively named space rocks
-    - type: RandomMetadata
-      nameSeparator: ""
-      nameSegments:
-      - DroneHex
-      - DroneHex
-      - DroneHex
-      - DroneHex
-      - AsteroidDiscoverer
-      - " "
-      - AsteroidDiscovererMajor
-      # Mono end
 # endregion Asteroid Sizes
 
 # region Asteroid Entities

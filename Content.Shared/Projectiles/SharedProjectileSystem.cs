@@ -110,7 +110,7 @@ public abstract partial class SharedProjectileSystem : EntitySystem
     {
         // This is so entities that shouldn't get a collision are ignored.
         if (args.OurFixtureId != ProjectileFixture || !args.OtherFixture.Hard
-            || component.ProjectileSpent || component is { Weapon: null, OnlyCollideWhenShot: true })
+            || component.DamagedEntity || component.ProjectileSpent || component is { Weapon: null, OnlyCollideWhenShot: true })
             return;
 
         ProjectileCollide((uid, component, args.OurBody), args.OtherEntity);
@@ -133,13 +133,13 @@ public abstract partial class SharedProjectileSystem : EntitySystem
             SetShooter(uid, component, target);
             return null;
         }
-
+        
         var ev = new ProjectileHitEvent(component.Damage, target, component.Shooter);
         RaiseLocalEvent(uid, ref ev);
         if (ev.Handled)
             return null;
 
-        if (projectile.Comp1.ProjectileSpent)
+        if (projectile.Comp1.DamagedEntity)
         {
             if (_net.IsServer && component.DeleteOnCollide)
                 QueueDel(uid);
@@ -205,10 +205,11 @@ public abstract partial class SharedProjectileSystem : EntitySystem
             _sharedCameraRecoil.KickCamera(target, float.IsNaN(direction.X) ? Vector2.Zero : direction);
         }
 
+        component.DamagedEntity = true;
         Dirty(uid, component);
-        if (!predicted && component.DeleteOnCollide && component.ProjectileSpent && (_net.IsServer || IsClientSide(uid)))
+        if (!predicted && component.DeleteOnCollide && (_net.IsServer || IsClientSide(uid)))
             QueueDel(uid);
-        else if (_net.IsServer && component.DeleteOnCollide && component.ProjectileSpent)
+        else if (_net.IsServer && component.DeleteOnCollide)
         {
             var predictedComp = EnsureComp<PredictedProjectileHitComponent>(uid);
             predictedComp.Origin = _transform.GetMoverCoordinates(coordinates);
@@ -600,11 +601,6 @@ public record struct ProjectileReflectAttemptEvent(EntityUid ProjUid, Projectile
 /// </summary>
 [ByRefEvent]
 public record struct ProjectileHitEvent(DamageSpecifier Damage, EntityUid Target, EntityUid? Shooter = null, bool Handled = false);
-
-/// <summary>
-/// Mono - raised when a projectile is spent
-/// </summary>
-public record struct ProjectileSpentEvent();
 
 /// <summary>
 /// Raised when a projectile is about to collide with an entity, allowing systems to prevent the collision

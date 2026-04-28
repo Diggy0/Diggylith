@@ -475,7 +475,7 @@
     pack: NFPTechInventory
     requiresCash: true
   - type: AccessReader
-    access: [["Command"]] #Monolith Change: Access change to allow DOC and Colonel to use it
+    access: [["HeadOfPersonnel"]]
   - type: MarketModifier
     mod: 5
 

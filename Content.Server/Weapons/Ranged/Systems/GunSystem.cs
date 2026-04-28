@@ -91,19 +91,20 @@ public sealed partial class GunSystem : SharedGunSystem
             }
         }
 
-        var fromMap = TransformSystem.ToMapCoordinates(fromCoordinates);
-        var toMap = TransformSystem.ToMapCoordinates(toCoordinates).Position;
+        var fromMap = fromCoordinates.ToMap(EntityManager, TransformSystem);
+        var toMap = toCoordinates.ToMapPos(EntityManager, TransformSystem);
         var mapDirection = toMap - fromMap.Position;
         var mapAngle = mapDirection.ToAngle();
 
         // If applicable, this ensures the projectile is parented to grid on spawn, instead of the map.
         var fromEnt = MapManager.TryFindGridAt(fromMap, out var gridUid, out var grid)
-            ? _transform.WithEntityId(fromCoordinates, gridUid)
-            : _transform.ToCoordinates(fromMap);
+            ? fromCoordinates.WithEntityId(gridUid, EntityManager)
+            : new EntityCoordinates(MapManager.GetMapEntityId(fromMap.MapId), fromMap.Position);
 
-        // get gun's fromEnt-relative velocity
+        // get gun's local velocity
         var gunVelocity = Vector2.Zero;
-        gunVelocity = Physics.GetMapLinearVelocity(gunUid) - Physics.GetMapLinearVelocity(fromEnt);
+        if (_physQuery.TryComp(gunUid, out var gunBody))
+            gunVelocity = gunBody.LinearVelocity;
 
         // I must be high because this was getting tripped even when true.
         // DebugTools.Assert(direction != Vector2.Zero);

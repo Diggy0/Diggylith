@@ -1,14 +1,10 @@
 - type: entity
-  parent: [BaseThruster, ConstructibleMachine]
+  parent: BaseThruster
   id: ThrusterLarge
   name: large thruster
   placement:
     mode: AlignTileAny
   components:
-  - type: Machine
-    board: LargeThrusterMachineCircuitboard
-  - type: Construction
-    graph: Machine2x2
   - type: Destructible
     thresholds:
     - trigger:
@@ -17,11 +13,6 @@
       behaviors:
         - !type:DoActsBehavior
           acts: ["Destruction"]
-        - !type:PlaySoundBehavior
-          sound:
-            collection: MetalBreak
-        - !type:ChangeConstructionNodeBehavior
-          node: machineFrame
   - type: Fixtures
     fixtures:
       fix1:
@@ -68,10 +59,7 @@
     - Off # Mono
     - Toggle # Mono
   - type: Anchorable
-    delay: 10
-  - type: Rotatable
-    rotateWhileAnchored: false
-    increment: 90
+    flags: None
   - type: StaticPrice
     price: 1500
   - type: RadarBlip
@@ -87,4 +75,4 @@
       bounds: "-0.5,-1.5,1.5,0.5"
   - type: ShipRepairable
     repairTime: 15
-    repairCost: 15
+    repairCost: 30

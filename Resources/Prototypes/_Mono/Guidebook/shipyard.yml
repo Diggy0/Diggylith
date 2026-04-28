@@ -4,7 +4,6 @@
   text: "/ServerInfo/_NF/Guidebook/Shipyard.xml"
   priority: 6
   children:
-  - ShipyardNFROperation
   - ShipyardArgent
   - ShipyardJudiciary
   - ShipyardSabine
@@ -47,8 +46,3 @@
   id: ShipyardFenrir
   name: guide-entry-shipyard-fenrir
   text: "/ServerInfo/_Mono/Guidebook/Shipyard/Fenrir.xml"
-
-- type: guideEntry
-  id: ShipyardNFROperation
-  name: guide-entry-shipyard-nfr
-  text: "/ServerInfo/_Mono/Guidebook/Shipyard/NFRManual.xml"

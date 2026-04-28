@@ -139,7 +139,7 @@
   - type: Flatpack
     entity: ResearchAndDevelopmentServerUssp
   - type: StaticPrice
-    vendPrice: 105000 #Faction token + 5%
+    vendPrice: 1500
   - type: Sprite
     layers:
     - state: science_server
@@ -181,7 +181,7 @@
   - type: Flatpack
     entity: FactionLathe
   - type: StaticPrice
-    vendPrice: 26250 #1.75x the price of a Mercenary fab.
+    vendPrice: 1500
   - type: Sprite
     layers:
     - state: science_server

@@ -379,16 +379,9 @@
     - HVCable
     - CableTerminal
     - Deconstruct
-    # mono start
-    - WallReinforced
-    - AirlockShuttle
-    - AirlockGlassShuttle
-    - SMES
-    - Substation
-    delayMultiplier: 0.65 # Mono
   - type: LimitedCharges
-    maxCharges: 125 # mono 30 -> 125
-    charges: 125 # mono 30 -> 125
+    maxCharges: 30
+    charges: 30
   - type: Sprite
     sprite: _NF/Objects/Tools/rcd.rsi # Frontier
     state: icon
@@ -435,8 +428,8 @@
   suffix: AutoRecharge
   components:
   - type: LimitedCharges
-    maxCharges: 90 # mono 20 -> 90
-    charges: 90 # mono 20 -> 90
+    maxCharges: 20
+    charges: 20
   - type: AutoRecharge
     rechargeDuration: 10
 
@@ -458,7 +451,7 @@
   components:
   # Monolith changes start
   - type: LimitedChargesAmmo
-    charges: 125 # 30 -> 125
+    charges: 30
     whitelist:
       tags:
       - RapidConstructionTool
@@ -475,7 +468,7 @@
       Plastic: 100
   - type: StaticPrice
     price: 30 # Frontier 60<30
-    vendPrice: 3000 # Frontier
+    vendPrice: 1000 # Frontier
 
 - type: entity
   name: omnitool

@@ -43,7 +43,7 @@ public sealed class SharedMagbootsSystem : EntitySystem
             UpdateMagbootEffects(container.Owner, ent, args.Activated);
         }
 
-        var prefix = args.Activated ? ent.Comp.EnabledPrefix : null; // Goob edit
+        var prefix = args.Activated ? "on" : null;
         _item.SetHeldPrefix(ent, prefix);
         _clothing.SetEquippedPrefix(ent, prefix);
     }

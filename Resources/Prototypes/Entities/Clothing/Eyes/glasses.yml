@@ -179,6 +179,9 @@
     tags:
     - HamsterWearable
     - WhitelistChameleon
+  - type: GuideHelp
+    guides:
+    - Security
     # - Antagonists # Frontier: guidebook entry removed
   - type: IdentityBlocker
     coverage: EYES

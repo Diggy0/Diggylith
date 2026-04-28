@@ -34,7 +34,7 @@ public sealed partial class ShipSteererComponent : Component
     /// Prevents collision avoidance from triggering ship rotation.
     /// </summary>
     [ViewVariables(VVAccess.ReadWrite)]
-    public bool AvoidanceNoRotate = false;
+    public bool AvoidanceNoRotate = true;
 
     /// <summary>
     /// If AlwaysFaceTarget is true or InRangeRotation is set, how much of a difference in angle (in radians) to accept.
@@ -55,22 +55,16 @@ public sealed partial class ShipSteererComponent : Component
     public float BaseEvasionTime = 4f;
 
     /// <summary>
-    /// Don't use anchor below this velocity.
-    /// </summary>
-    [ViewVariables(VVAccess.ReadWrite)]
-    public float AnchorMaxVelocity = 5f;
-
-    /// <summary>
     /// How unwilling we are to use brake to adjust our velocity. Higher means less willing.
     /// </summary>
     [ViewVariables(VVAccess.ReadWrite)]
-    public float BrakeThreshold = 0.3f;
+    public float BrakeThreshold = 0.75f;
 
     /// <summary>
     /// How much larger to consider the ship for collision evasion purposes.
     /// </summary>
     [ViewVariables(VVAccess.ReadWrite)]
-    public float EvasionBuffer = 3f;
+    public float EvasionBuffer = 6f;
 
     /// <summary>
     /// How many evasion sectors to init on the outer ring.

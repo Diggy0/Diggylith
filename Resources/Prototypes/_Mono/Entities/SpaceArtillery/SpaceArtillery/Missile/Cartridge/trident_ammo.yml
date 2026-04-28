@@ -14,7 +14,7 @@
       projectile:
         shape:
           !type:PhysShapeCircle
-          radius: 0.3
+          radius: 1
         density: 1500
         layer:
         - WallLayer

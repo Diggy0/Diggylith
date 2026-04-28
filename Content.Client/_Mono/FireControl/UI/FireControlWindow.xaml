@@ -90,9 +90,7 @@
 
         <!-- Radar Display -->
         <BoxContainer Name="RadarContainer" Orientation="Horizontal" HorizontalExpand="True" Margin="50 50 50 50">
-            <LayoutContainer>
-                <ui:FireControlNavControl Name="NavRadar" />
-            </LayoutContainer>
+            <ui:FireControlNavControl Name="NavRadar" />
         </BoxContainer>
     </BoxContainer>
 </controls:FancyWindow>

@@ -23,13 +23,9 @@
   assignedCompany: TSF
   canBeAntag: false
   accessGroups:
-  - AllAccessMono #Mono Start
-  access:
+  - AllAccess
+  access: # Mono
   - TsfmcEngineering
-  - HeadOfSecurity
-  - Bailiff
-  - Sergeant
-  - Frontier #Mono End
   special:
   - !type:AddComponentSpecial
     components:
@@ -62,4 +58,3 @@
     - BaseSecurityUplinkRadioSheriff
     - ShipVoucherTsfmcColonel
     - PhoneInstrumentHigh
-    - RubberStampTSFColonel #Mono. Look, it had comments on the Bailiff/Captain file.

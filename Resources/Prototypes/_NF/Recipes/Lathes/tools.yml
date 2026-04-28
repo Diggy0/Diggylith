@@ -101,9 +101,8 @@
   result: RCDAmmo
   completetime: 2.4
   materials:
-    Steel: 2000
-    Plastic: 750
-    Plasteel: 600
+    Steel: 500
+    Plastic: 250
 
 # Migrated from Recipes/Lathes/tools.yml
 - type: latheRecipe
